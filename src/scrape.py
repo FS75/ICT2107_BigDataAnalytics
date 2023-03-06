@@ -34,7 +34,8 @@ country_code = {
     "Österreich": 11
 }
 
-companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
+#companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
+companies_to_scrape = ["meta"]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -51,7 +52,7 @@ pandas_glassdoor_details_dict = {
 pandas_glassdoor_reviews_dict = {
     "pros": [],
     "cons": [],
-    "advice": [],
+    "ratingNumber": [],
 }
 
 details_folder_prefix = "../dataset/details_dataset"
@@ -170,7 +171,7 @@ def get_glassdoor_reviews(company_payload):
     reviews_payload = {
         "pros": [],
         "cons": [],
-        "advice": []
+        "ratingNumber": []
     }
 
     reviews = parse_reviews(first_page.text)
@@ -197,8 +198,8 @@ def get_glassdoor_reviews(company_payload):
                 reviews_payload[key].append(item)
 
             # to ensure same rows for pandas to convert to df
-            while len(reviews_payload["advice"]) != len(reviews_payload["pros"]):
-                reviews_payload["advice"].append("nil")
+            #while len(reviews_payload["ratingNumber"]) != len(reviews_payload["pros"]):
+             #   reviews_payload["ratingNumber"].append("nil")
 
     return reviews_payload
 
@@ -208,7 +209,7 @@ def get_glassdoor_reviews_payload(response):
     return {
         "pros": selector.css('[data-test="pros"]::text').getall(),
         "cons": selector.css('[data-test="cons"]::text').getall(),
-        "advice": selector.css('[data-test="advice-management"]::text').getall()
+        "ratingNumber": selector.css('[class="ratingNumber mr-xsm"]::text').getall()
     }
 
 
