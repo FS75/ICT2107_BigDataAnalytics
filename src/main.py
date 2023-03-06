@@ -1,9 +1,11 @@
-from scrape import scrape
+import asyncio
+
+from scrape import scrape_glassdoor
 
 
 def main():
-    scrape()
-
+    # asyncio.run(scrape_glassdoor())
+    scrape_glassdoor()
 
 if __name__ == "__main__":
     main()
