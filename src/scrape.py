@@ -66,12 +66,12 @@ async def scrape_glassdoor():
     for company in companies_to_scrape:
         print(f"Scraping {company}'s details from Glassdoor...")
         company_payload = find_companies(company)
-        # response = get_response(f"https://www.glassdoor.com/Overview/Working-at-"
-        #                         f"{company_payload['suggestion']}-EI_IE"
-        #                         f"{company_payload['id']}.htm")
-        # glassdoor_details_payload = get_glassdoor_details_payload(company_payload, response)
-        # details_payload_to_pandas_dict(glassdoor_details_payload, pandas_glassdoor_details_dict)
-        # pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
+        response = get_response(f"https://www.glassdoor.com/Overview/Working-at-"
+                                f"{company_payload['suggestion']}-EI_IE"
+                                f"{company_payload['id']}.htm")
+        glassdoor_details_payload = get_glassdoor_details_payload(company_payload, response)
+        details_payload_to_pandas_dict(glassdoor_details_payload, pandas_glassdoor_details_dict)
+        pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
 
         glassdoor_reviews_payload = get_glassdoor_reviews(company_payload)
         review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
@@ -181,7 +181,7 @@ def get_glassdoor_reviews(company_payload):
 
     print(f"Commencing scraping of {actual_pages_to_scrape} pages for {company_payload['suggestion']}'s reviews")
 
-    for page in range(50, 51):
+    for page in range(1, actual_pages_to_scrape + 1):
         print(f"Scraping {company_payload['suggestion']}'s reviews from page {page}")
         response = get_response(f"https://www.glassdoor.com/Reviews/"
                                 f"{company_payload['suggestion']}-Reviews-E"
