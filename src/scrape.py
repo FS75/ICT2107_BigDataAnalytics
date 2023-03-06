@@ -74,6 +74,10 @@ async def scrape_glassdoor():
         pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
 
         glassdoor_reviews_payload = get_glassdoor_reviews(company_payload)
+
+        for key in pandas_glassdoor_reviews_dict:
+            pandas_glassdoor_reviews_dict[key].clear()
+
         review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
         pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review.csv")
 

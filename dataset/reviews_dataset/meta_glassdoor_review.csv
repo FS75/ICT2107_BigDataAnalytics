@@ -1,5 +1,5 @@
 ,pros,cons,advice
-0,I liked working there of course.,I didn't like working there some days.,nil
+0,"It's amazing to be in the middle of a company, so connected to much of what is being said and done in the world. It's a smart team and the Friday afternoon checking with leadership is a thoughtful and exceptional business practice.",Many people are moving very fast and focused on their own goals. Sometimes it's hard to find collaborators.,nil
 1,"It might be easy to roll your eyes when people from Facebook say how open their culture is, but it's true; it's more open than any other place I've worked at. At a company wide-level, secret projects, public incidents, important non-public business metrics and the like are all openly discussed. You can ask questions about them directly to Zuckerburg at the weekly Q&A. I think the idea is that if everyone is on the same page or at least, differing views are heard, the company will be stronger, and solutions may be offered from a place you didn't expect. This is much different from previous companies I worked at, where discussions on internal email lists would be shut down by some lawyer saying that there's certain things that can't be discussed, and important data is divided up to groups and individuals on a ""need to know"" basis, etc. 
 
 This culture applies at a lower level too. You feel comfortable giving feedback to each other about each other, about product decisions, about management, etc. The flipside of this openness is that you of course, have to be willing to receive the feedback, you have to recognize that while openness and feedback is highly encouraged, decisions have to get made, and actions and data are more valuable than words. At the higher level, since the company trusts employees with access to so much information, keeping such info confidential from the outside world is taken seriously.
@@ -66,7 +66,7 @@ Being able to eat to your hearts/stomachs content can be dangerous to the waistl
 21,"Good Salary, Benefits, Fixed Schedule","Strict Deadlines, Heavy workload, Hard to apply",nil
 22,Generous amount of refresh every year,Too much metrics-driven around the team.,nil
 23,"Challenging work, incredible people to work with",Leadership direction can be challenging to grasp sometimes,nil
-24,"- The recruiting process is very smooth - Company culture is amazing. People is willing to share, and collaboration is abundant - Benefits are amazing too. From various health plans to other onsite benefits (at least in Menlo Park). - MPK office is incredible and unique, since it's very open and long instead of tall, sometimes you take a bike to get to a meeting instead of an elevator. - Technical knowledge is impressive within the teams. It is a very rare ocurrence when someone doesn't know what they are talking about - Compensation is really highed compared to other companies in the Bay Area - Career path is very well defined. You can grow a lot within the company",#NAME?,nil
+24,"- The recruiting process is very smooth - Company culture is amazing. People is willing to share, and collaboration is abundant - Benefits are amazing too. From various health plans to other onsite benefits (at least in Menlo Park). - MPK office is incredible and unique, since it's very open and long instead of tall, sometimes you take a bike to get to a meeting instead of an elevator. - Technical knowledge is impressive within the teams. It is a very rare ocurrence when someone doesn't know what they are talking about - Compensation is really highed compared to other companies in the Bay Area - Career path is very well defined. You can grow a lot within the company","- Remember that Meta is a huge company, and you are replaceable at any time - Technical skills may not be transferrable to other companies. This is huge - Work is fast paced. Expect to develop things fast and not become proficient in any technology at least for the first year",nil
 25,1) perceived career opportunities 2) socialization,"1) comments on internal workplace are more important than actual work, sorta like instagram pictures of influencers who can spin off a cool image, but there's nothing real behind it 2) management is very young, and instead of trying to solve actual problems in the team, defers it to HR. If someone complains to HR, no-one even checks if it was true or not. Even though a person is an excellent engineer, complaints will devoid that person of promotion",nil
 26,"- Surprisingly good WLB as an SDE 1 in an internal tools team - Benefits and wellness reimbursement - Delicious free food (breakfast, lunch, and dinner) - Some brilliant people and really cool engineering like the source control interface, devserver reservations, etc - Very friendly colleagues - Compensation if join at the right time","- A lot of times ""impacc"" culture just kills good engineering in my opinion: short term impact is so prioritized over everything else that it tends to blind people into what actually matters and therefore make poor product decisions. Also, frequently it's more important to improve the visibility of your work and sell its impact than the quality and purpose of the work itself - PSC: dreadful performance review process - BS performance axis to fulfill: engineers need to have (mostly non-sense) non-engineering contributions in order for them to meet expectations - Compensation if joined at the wrong time (stock crash) - SDE 1 and 2 levels are not terminal so there is pressure to get promoted within a certain timeline, otherwise pip",nil
 27,New technology Intellectually challenging work Compensation,Work life balance That’s it,nil
@@ -77,21 +77,41 @@ Being able to eat to your hearts/stomachs content can be dangerous to the waistl
 32,The offices and perks are amazing,I had no cons to speak of,nil
 33,Good work culture good benefits,Kinda ok place to work sometimes,nil
 34,Nice people Supportive coworkers Plenty of problems to solve Some power to decide on which work to do,PSC Culture Overlapping docs Management work pushed to ICs,nil
-35,#NAME?,"- I got laid off during the Nov 2022 RIF - no telling where they're headed as a company in the future - obviously a giant soulless megacorporation, but the people are nice",nil
+35,- they treat their employees very well - great benefits - food on-campus - stock and bonuses based on company performance,"- I got laid off during the Nov 2022 RIF - no telling where they're headed as a company in the future - obviously a giant soulless megacorporation, but the people are nice",nil
 36,"You will be exposed to a lot of new internal technologies and tools designed specifically for work and development of Meta products. You will also face a lot of new technical challenges and will be required to think in ways to provide services and products to 2+ Billion users. Obviously there is a lot of opportunity to grow and make impact, specially at such scale.","Sometimes the product or service you are working on is not the most interesting. A lot of the time, if you are working on very legacy products or features, you will be required to work on top of very old code or refactor things that sometimes takes a while to figure out specially because there are many very FB or instagram specific use cases. There is a lot of bureaucracy within the company, and you feel like you have to show off the work you are doing or what kind of impact you are having by making post regularly. This is one of the few ways to get noticed. There is a huge focus on the type of impact you are doing, even if sometimes you cannot see this in a very concrete way.",nil
 37,Good pay and insurance. Health center is on campus.,"Busy, high pressure and strict evaluation mechanism.",nil
-38,#NAME?,"- Company directions: Depending on the news media cycle, you never really knew where integrity stood (top or nice to have). Would affect roadmap frequently - Ambiguous: Really tough problems to solve and hard to get consensus when 101 things were happening on the platform - Career Trajectory: Hard to progress to other non operation orgs",nil
-39,Excellent benefits and great culture. Flexible work schedule,A lot of shifts in focus can make direction and priority difficult to manage.,nil
-40,#NAME?,"- Company directions: Depending on the news media cycle, you never really knew where integrity stood (top or nice to have). Would affect roadmap frequently - Ambiguous: Really tough problems to solve and hard to get consensus when 101 things were happening on the platform - Career Trajectory: Hard to progress to other non operation orgs",nil
-41,Excellent benefits and great culture. Flexible work schedule,A lot of shifts in focus can make direction and priority difficult to manage.,nil
-42,"Benefits: S-tier - Free catered Breakfast, Lunch and Dinner daily with many options daily at all locations - Health benefits so good, my Doctor and Dentist compliment me on it - Optional WFH for nearly unlimited days per week with zero obligation to come in the office, industry leading parent leave, various one-offs per year they just throw out like random PTO on a specific day for the whole company. Pay: S-Tier if you start after the stock drop, A-Tier if before - Mid six fig salary to start, total comp first year 200-250k for a new hire junior dev. - 401k, IRA, solid back door - all top tier - Can easily scale to 500k within 5 years here, more depending on stock movement. Work: - Codebase is proprietary, with many custom made tools to making things easier",It’s Facebook. You already know all the cons by now lol.,nil
-43,"Really great benefits, free food on campus, great colleagues, free internet for permanent remote employees","Re-org culture, layoffs, company reputation sometimes challenging, too much time spent in planning, peer review, and meetings",nil
-44,Great company with awesome culture. Good work life balance.,You are fully at discretion to the market and HR will always be the first one to go.,nil
-45,Mark’s stake in the company is the reason for the cultural values to stay intact. Also his commandeering position dictates the charter to a great extent. Mark has worked his way through his role and position and definitely is the steering wheel navigating the company,"By far the worst top level/executive management. Bunch of stooges who do nothing but post - repost - like - share posts! Zero accountability and they are not able instill any inspiration or are they able to contribute effectively towards of the growth of the company. They are simply bothered about building their own castles in order to get promotions or worse just retain their jobs. When push comes to shove, they are the first to either abandon ship or put 11,000 employees on the anvil to be chopped! The top management at Meta needs a complete overhaul. Mark needs folks who can help him and not just stooges whose contribution in 1 video post where they are reading through a promoter!!",nil
-46,"Pay, bonus, resources, working on huge industry challenges, the company REALLY does care about people (as much as a company in a capitalist run society can)","As a manager, spent the vast majority of my time moving people around through re-orgs, hiring, or dealing with enterprise level issues. Rarely worked on significant product releases or even got much time doing creative work",nil
-47,Cool tech. Nice working environment. Smart people,Completely disorganized groups. Ex-Apple employees bringing their toxic culture and cliques to Meta just makes it as toxic as their previous workplace.,nil
-48,Good Challenges and projects to work on,Low Work life balance. Lot of focus on PSC,nil
-49,"I just left Google and joined Facebook, and felt so much happier. The reasons are:
+38,"- Autonomous: managers really treat you like the experts and give you the opportunity to pave your path - Benefits: Felt well taken care of (food, insurance, etc.) - People: super smart, caring folks","- Company directions: Depending on the news media cycle, you never really knew where integrity stood (top or nice to have). Would affect roadmap frequently - Ambiguous: Really tough problems to solve and hard to get consensus when 101 things were happening on the platform - Career Trajectory: Hard to progress to other non operation orgs",nil
+39,"Really great benefits, free food on campus, great colleagues, free internet for permanent remote employees","Re-org culture, layoffs, company reputation sometimes challenging, too much time spent in planning, peer review, and meetings",nil
+40,"- The recruiting process is very smooth - Company culture is amazing. People is willing to share, and collaboration is abundant - Benefits are amazing too. From various health plans to other onsite benefits (at least in Menlo Park). - MPK office is incredible and unique, since it's very open and long instead of tall, sometimes you take a bike to get to a meeting instead of an elevator. - Technical knowledge is impressive within the teams. It is a very rare ocurrence when someone doesn't know what they are talking about - Compensation is really highed compared to other companies in the Bay Area - Career path is very well defined. You can grow a lot within the company","- Remember that Meta is a huge company, and you are replaceable at any time - Technical skills may not be transferrable to other companies. This is huge - Work is fast paced. Expect to develop things fast and not become proficient in any technology at least for the first year",nil
+41,"- Surprisingly good WLB as an SDE 1 in an internal tools team - Benefits and wellness reimbursement - Delicious free food (breakfast, lunch, and dinner) - Some brilliant people and really cool engineering like the source control interface, devserver reservations, etc - Very friendly colleagues - Compensation if join at the right time","- A lot of times ""impacc"" culture just kills good engineering in my opinion: short term impact is so prioritized over everything else that it tends to blind people into what actually matters and therefore make poor product decisions. Also, frequently it's more important to improve the visibility of your work and sell its impact than the quality and purpose of the work itself - PSC: dreadful performance review process - BS performance axis to fulfill: engineers need to have (mostly non-sense) non-engineering contributions in order for them to meet expectations - Compensation if joined at the wrong time (stock crash) - SDE 1 and 2 levels are not terminal so there is pressure to get promoted within a certain timeline, otherwise pip",nil
+42,Meta has talented people doing good work,There is a low level of trust in the direction of the company,nil
+43,"Pay is great, even for tech",It is oddly dysfunctional. The company consists mainly of folks who know how to survive.,nil
+44,New technology Intellectually challenging work Compensation,Work life balance That’s it,nil
+45,"Great team, food, mission driven",Crunch culture when it comes to deadlines,nil
+46,Great teams and collaboration. Ability to grow and learn for career progression within the company,In the end you are just a number. Was laid off based on hire date and not my exceptional metrics and impact on the company,nil
+47,Good work culture overall at Meta.,Skewed work life balance sometime.,nil
+48,The offices and perks are amazing,I had no cons to speak of,nil
+49,Good work culture good benefits,Kinda ok place to work sometimes,nil
+50,Big company with great benefits and perks. They pay really well and if you just want to do a job and get paid to do that then it's amazing.,"It's a massive company that has been around for a long time, so they are very set in their ways with regard to the software they use, the processes and procedures of the work, and who does what. Don't expect actually to grow or learn much. The software they use is all internal, so it won't apply outside of the company. The job you are hired for is the only job you will do so there isn't a lot of thinking outside the box.",nil
+51,Pay and benefits were top tier,"Politics, culture, company direction all disappointing. Exceptionally let down by poor management and leadership. I expected better.",nil
+52,- they treat their employees very well - great benefits - food on-campus - stock and bonuses based on company performance,"- I got laid off during the Nov 2022 RIF - no telling where they're headed as a company in the future - obviously a giant soulless megacorporation, but the people are nice",nil
+53,"You will be exposed to a lot of new internal technologies and tools designed specifically for work and development of Meta products. You will also face a lot of new technical challenges and will be required to think in ways to provide services and products to 2+ Billion users. Obviously there is a lot of opportunity to grow and make impact, specially at such scale.","Sometimes the product or service you are working on is not the most interesting. A lot of the time, if you are working on very legacy products or features, you will be required to work on top of very old code or refactor things that sometimes takes a while to figure out specially because there are many very FB or instagram specific use cases. There is a lot of bureaucracy within the company, and you feel like you have to show off the work you are doing or what kind of impact you are having by making post regularly. This is one of the few ways to get noticed. There is a huge focus on the type of impact you are doing, even if sometimes you cannot see this in a very concrete way.",nil
+54,Good pay and insurance. Health center is on campus.,"Busy, high pressure and strict evaluation mechanism.",nil
+55,"- Autonomous: managers really treat you like the experts and give you the opportunity to pave your path - Benefits: Felt well taken care of (food, insurance, etc.) - People: super smart, caring folks","- Company directions: Depending on the news media cycle, you never really knew where integrity stood (top or nice to have). Would affect roadmap frequently - Ambiguous: Really tough problems to solve and hard to get consensus when 101 things were happening on the platform - Career Trajectory: Hard to progress to other non operation orgs",nil
+56,Coworkers have strong background and mostly friendly,There's limited opportunities and culture is toxic,nil
+57,"Really great benefits, free food on campus, great colleagues, free internet for permanent remote employees","Re-org culture, layoffs, company reputation sometimes challenging, too much time spent in planning, peer review, and meetings",nil
+58,Great company with awesome culture. Good work life balance.,You are fully at discretion to the market and HR will always be the first one to go.,nil
+59,"Benefits: S-tier - Free catered Breakfast, Lunch and Dinner daily with many options daily at all locations - Health benefits so good, my Doctor and Dentist compliment me on it - Optional WFH for nearly unlimited days per week with zero obligation to come in the office, industry leading parent leave, various one-offs per year they just throw out like random PTO on a specific day for the whole company. Pay: S-Tier if you start after the stock drop, A-Tier if before - Mid six fig salary to start, total comp first year 200-250k for a new hire junior dev. - 401k, IRA, solid back door - all top tier - Can easily scale to 500k within 5 years here, more depending on stock movement. Work: - Codebase is proprietary, with many custom made tools to making things easier",It’s Facebook. You already know all the cons by now lol.,nil
+60,"- Autonomous: managers really treat you like the experts and give you the opportunity to pave your path - Benefits: Felt well taken care of (food, insurance, etc.) - People: super smart, caring folks","- Company directions: Depending on the news media cycle, you never really knew where integrity stood (top or nice to have). Would affect roadmap frequently - Ambiguous: Really tough problems to solve and hard to get consensus when 101 things were happening on the platform - Career Trajectory: Hard to progress to other non operation orgs",nil
+61,Coworkers have strong background and mostly friendly,There's limited opportunities and culture is toxic,nil
+62,"Really great benefits, free food on campus, great colleagues, free internet for permanent remote employees","Re-org culture, layoffs, company reputation sometimes challenging, too much time spent in planning, peer review, and meetings",nil
+63,Great company with awesome culture. Good work life balance.,You are fully at discretion to the market and HR will always be the first one to go.,nil
+64,"Benefits: S-tier - Free catered Breakfast, Lunch and Dinner daily with many options daily at all locations - Health benefits so good, my Doctor and Dentist compliment me on it - Optional WFH for nearly unlimited days per week with zero obligation to come in the office, industry leading parent leave, various one-offs per year they just throw out like random PTO on a specific day for the whole company. Pay: S-Tier if you start after the stock drop, A-Tier if before - Mid six fig salary to start, total comp first year 200-250k for a new hire junior dev. - 401k, IRA, solid back door - all top tier - Can easily scale to 500k within 5 years here, more depending on stock movement. Work: - Codebase is proprietary, with many custom made tools to making things easier",It’s Facebook. You already know all the cons by now lol.,nil
+65,Excellent benefits and great culture. Flexible work schedule,A lot of shifts in focus can make direction and priority difficult to manage.,nil
+66,Formal fast growing company. Good place for grow.,Stressful work environment. High peer pressure.,nil
+67,Cool tech. Nice working environment. Smart people,Completely disorganized groups. Ex-Apple employees bringing their toxic culture and cliques to Meta just makes it as toxic as their previous workplace.,nil
+68,Good Challenges and projects to work on,Low Work life balance. Lot of focus on PSC,nil
+69,"I just left Google and joined Facebook, and felt so much happier. The reasons are:
 
 1. The real impact
 At Google I joined a team whose product is only used by less than 1000 people, and even for that product I was assigned to do a peripheral part, whose functionality actually doesn't matter at all. Just for that module, I had to write unit test for every silly part of the code, and took long iteration cycles. I admit those are good engineering coding trainings, however taking precious time in my life to work on something that doesn't matter is just a waste of my life.
@@ -104,26 +124,6 @@ Then I joined a team that's extremely important to Facebook's revenue. A mistake
 Google's organization is now very structured and hierarchical. Facebook is having more layers, but the working style is still flat, and social-network style. Speaking to people in different teams, form an idea, lead a virtual team and complete it, this style is still valued. My boss is more like a mentor helping me navigating through the ideas, rather than an authority telling me what to do.","1. I don't quite like the office decoration style. A little bit stressful and factory like.
 2. The compensation is better than Google but not as good as other smaller companies.
 3. Despite good acquisitions for solidify the position in social media, social networks, there is still uncertainty about the future of this company.",nil
-50,The company has good pay and benefits,Work life balance not ideal,nil
-51,I appreciate the benefits and equity packages. I really enjoy the people I work with - to be in the room with some of the smartest and collaborative minds is incredible to experience. The type of work you get to solve for has been one of the most exciting experiences of my career to date.,Be aware of your work/life balance and set boundaries early with your time and scope.,nil
-52,Food culture people perks pay,Nothing that I can think of,nil
-53,Nice office space and food Friendly colleagues,Can be a bit intimidating and overwhelming when you are just joining.,nil
-54,"Great benefits, intelligent and hard working colleagues",Culture shifting and large layoffs,nil
-55,"- Established culture and clearly defined vision and set of expectations across the company - Excellent benefits and compensation package; remote flexible - The business and leadership are engaged and highly value talent attraction and acquisition. Well-defined processes, nimble systems, budget for tools/social, etc.","Way too many layers in the organization. Senior leaders (Directors and above) are far removed from the day-to-day. Too many silos, a lack of organization communications within my org (outside of Mark and execs), and a lack of efficiency across the org.",nil
-56,Great atmosphere Good teammates Interesting work,Long working hours Pay could be higher,nil
-57,#NAME?,#NAME?,nil
-58,#NAME?,-stress - i've never worked anyplace where so many people go on stress leave - microaggressions were rampant -unclear promotion criteria - would exceed goals but still not get promoted,nil
-59,Meta is a great place to work and build your career. It also rewards high performers,it is a big tech so it has it's cons :),nil
-60,"It was an amazing place to work. Over 3 years, I had the privilege of working with truly kind and intelligent individuals.",I find it unfortunate that they chose to hire so aggressively without truly considering the potential cons.,nil
-61,meta gives a ton of autonomy in your role. Allows you to decide what is the biggest impact and how you will contribute. I like that the company is,Meta's internal culture has become extremely cutthroat and competitive. It's a common expectation to respond to things ASAP and if you don't there are repercussions.,nil
-62,Good place to work at,Direction of company not cleaf,nil
-63,"Great pay Remote work 401k match, stock award, free shuttle, free food FANG in your resume",Extremely political and competitive Too many overlaps between teams Peer pressure to be liked by peers for performance review,nil
-64,"Great benefits, good pay, autonomy","Not a lot of opportunity growth, too much focus on short term achievements which leads to lack of innovation",nil
-65,people - innovation - entrepreneurship - perks - remote,Lay-off - budget cuts - stress -,nil
-66,"food, benefits, Pay, stock grant and cafes",High expectations and very little work life balance,nil
-67,"Bottoms up work culture, autonomy for engineers",Too much fragmentation between teams,nil
-68,#NAME?,#NAME?,nil
-69,#NAME?,"- Big and complex organization. It takes a year to process a vast amount of institutional information and find your place within the organization. - Difficult to get immediate support for day-to-day tasks due to highly distributed and asynchronous work. Most of the time, you have to schedule meetings or wait for chat responses to solve issues easily solved in in-person environments. - Many roles focus on minor aspects of the platform. It isn't easy to find a space to have an impact. - No commitment to ensure a successful onboarding experience.",nil
 70,"Love it here. Meta gets a lot of hate, but I come from a career background where I didn't have any perks and had to work a few terrible jobs before finally landing in tech. The offices are amazing, the internal tools make the job so much simpler than other places I've worked, and if you work hard people will recognize you for your contributions.",Negative press can be daunting at times. We've seen how slanted the media can get with it's 'Meta never does any good' approach though and you learn to live with it.,nil
 71,The people are nice and the pay is decent,There are constant organizational changes which causes constant uncertainty,nil
 72,"Great Salary, Great Benefits, Great work life balance","Fast Paced, Poor Performance Management Structure, Siloed Work Environments.",nil
@@ -131,39 +131,39 @@ Google's organization is now very structured and hierarchical. Facebook is havin
 74,"I had a great team at Meta, everyone was hard working, smart, and really played into the team mentality, even if we were spread across the US and we were primarily all remote. I still felt super connected with my team and we did our best to stay connected and felt welcome.","There's a lot of brilliant people at Meta, but the organization lacked documentation and knowledge transfer. Things also moved very slow to make changes. but the good thing is that everyone is willing to work together to achieve a common goal, even if it's cross-functionally.",nil
 75,The compensation and benefits at Meta were the best I have ever experienced. I also really loved my team and had positive interactions with most everyone I worked with cross-functionally. The employees are smart and also care about each other.,"In terms of communication, the company still operates like a start up. No one uses email and requests are sent via chat. It can be hard to keep track of where you read something or what you need to do. I also never felt a real sense of security - the company's name, values, and priorities changed in the year that I was there. Things changed on a dime with little (or no) notice.",nil
 76,Great company couture and work life balance,Large company with minimal direction from Sr Leadership,nil
-77,Great benefits. Supportive leadership. Lots of autonomy.,Too flat. Lack of R&Rs.,nil
-78,#NAME?,"- In dire straits these days with stock price almost 1/3rd of all-time high. - Too much spending on metaverse which could have been a side-project instead. - Everyone too self-performance focused and often miss the big picture. - Fear of layoffs - It's never clear if your performance is enough for a rating and you are constantly trying to keep up. - Company values have regressed - Not open culture anymore, too many bureaucratic processes such as privacy reviews slowing things down. - Too many internal systems and tools whose experience doesn't carry over to other companies. - Doesn't care about users. Too many users whose accounts get cancelled accidentally due some stupid ML algorithm and can't get back their data.",nil
-79,"Fast iteration, lots of opportunities",Can feel like doing meaningless work sometimes,nil
+77,- Fast promotions - Good benefits including free food - Freedom to move around within company - Great tech stack - Great colleagues to work with and learn from,"- In dire straits these days with stock price almost 1/3rd of all-time high. - Too much spending on metaverse which could have been a side-project instead. - Everyone too self-performance focused and often miss the big picture. - Fear of layoffs - It's never clear if your performance is enough for a rating and you are constantly trying to keep up. - Company values have regressed - Not open culture anymore, too many bureaucratic processes such as privacy reviews slowing things down. - Too many internal systems and tools whose experience doesn't carry over to other companies. - Doesn't care about users. Too many users whose accounts get cancelled accidentally due some stupid ML algorithm and can't get back their data.",nil
+78,"Fast iteration, lots of opportunities",Can feel like doing meaningless work sometimes,nil
+79,Great team. Everyone wanted to help.,Nothing that I can think of.,nil
 80,Benefits and food in the office,The layoff was shocking and complete chaos,nil
 81,Great atmosphere Good teammates Interesting work,Long working hours Pay could be higher,nil
 82,Great perks in and out of office,Poor work life balance Poor management High burnout,nil
 83,"Resume builder, top market salary, challenging environment (work and politics)","As an individual contributor, meta will sell you on opportunities to make impact. There is not a lot of opportunities to do work outside of your narrowly focused job as you operate as a cog in a machine that needs output. The only impact you can make is working yourself to the bone to exceed your metrics. I have been employed by Meta for 18mo, have moved teams twice (against my wishes) due to restructuring and an over hiring in recruitment. The company has way over indexed in hiring based on outlooks and even through uncertainty, have feigned positive outlook while prepping for massive layoffs they knew would impact our teams",nil
 84,free food and company benefits,"layoff, low stock price, work life balance is a mass",nil
-85,#NAME?,-stress - i've never worked anyplace where so many people go on stress leave - microaggressions were rampant -unclear promotion criteria - would exceed goals but still not get promoted,nil
+85,"-fun job with lots of events -Loved working on the products, real world impact in the role -passionate co-workers",-stress - i've never worked anyplace where so many people go on stress leave - microaggressions were rampant -unclear promotion criteria - would exceed goals but still not get promoted,nil
 86,learn a ton; work with mostly great people; access to new tech,not everyone is great; culture is problematic; constant changing of priorities & minimal alignment at top levels; lots of conflict,nil
 87,Meta is a great place to work and build your career. It also rewards high performers,it is a big tech so it has it's cons :),nil
 88,"It was an amazing place to work. Over 3 years, I had the privilege of working with truly kind and intelligent individuals.",I find it unfortunate that they chose to hire so aggressively without truly considering the potential cons.,nil
 89,Good place to work at,Direction of company not cleaf,nil
-90,Pay is good for most,Layoffs they dont care about you,nil
-91,"Great benefits, good pay, autonomy","Not a lot of opportunity growth, too much focus on short term achievements which leads to lack of innovation",nil
-92,people - innovation - entrepreneurship - perks - remote,Lay-off - budget cuts - stress -,nil
-93,"food, benefits, Pay, stock grant and cafes",High expectations and very little work life balance,nil
-94,"Bottoms up work culture, autonomy for engineers",Too much fragmentation between teams,nil
-95,#NAME?,#NAME?,nil
-96,#NAME?,"- Big and complex organization. It takes a year to process a vast amount of institutional information and find your place within the organization. - Difficult to get immediate support for day-to-day tasks due to highly distributed and asynchronous work. Most of the time, you have to schedule meetings or wait for chat responses to solve issues easily solved in in-person environments. - Many roles focus on minor aspects of the platform. It isn't easy to find a space to have an impact. - No commitment to ensure a successful onboarding experience.",nil
-97,"Love it here. Meta gets a lot of hate, but I come from a career background where I didn't have any perks and had to work a few terrible jobs before finally landing in tech. The offices are amazing, the internal tools make the job so much simpler than other places I've worked, and if you work hard people will recognize you for your contributions.",Negative press can be daunting at times. We've seen how slanted the media can get with it's 'Meta never does any good' approach though and you learn to live with it.,nil
-98,The people are nice and the pay is decent,There are constant organizational changes which causes constant uncertainty,nil
-99,"Great Salary, Great Benefits, Great work life balance","Fast Paced, Poor Performance Management Structure, Siloed Work Environments.",nil
-100,Benefits are great and colleagues can be really smart,"It’s a big company and can give you the feeling of being just another cog. They also didn’t handle the layoffs very well, but it’s their first one and it’s never easy to do a good job laying off people",nil
-101,the benifits and recources are subpurb.,for me personaly. its too bright and noisy.,nil
-102,"Awesome, great, amazing, cool, nice","beware of layoffs, but other than that great time",nil
-103,"Sharp, challenging people Interesting problems Good pay and perks","Culture can be a bit manic at times Workload can go up and down, but people are cool about flexible hours",nil
-104,"Work is great, People are great.",Stressful work and lot of hiring,nil
-105,Meta has talented people doing good work,There is a low level of trust in the direction of the company,nil
-106,"Pay is great, even for tech",It is oddly dysfunctional. The company consists mainly of folks who know how to survive.,nil
-107,"Industry-leading benefits for fertility and transgender support; great healthcare, mental healthcare, and other family benefits Competitive pay Annual Equity Refreshers Remote Work friendly Smart, nice colleagues","Convoluted corporate structure that can get in the way of driving impact Senior leadership at the company has all turned over recently New direction towards the Metaverse is polarizing, may or may not work financially Competition is eating into core ads business (TikTok) Handled layoffs poorly; signals a change in culture related to people The Press loves to hate the company and Zuck Constant regulatory scrutiny will hamper company's ability to operate and expand through acquisitions",nil
-108,#NAME?,#NAME?,nil
-109,"- Very good short term opportunity in terms of business growth, stock price trading very low right now - Great benefits - Salary is top of the industry in tech, esp for non-swe - Flexible RTO policy - Ability to have high impact given the reach of Meta's products - Higher than expected transparency from leadership (bi weekly QnAs with employee submitted questions and polls). These are not like other QnAs from other tech companies.","- Long term vision (metaverse, reality labs) is controversial (although I believe in it, I can see why someone would be hesitant). This makes long term growth potential of the business unclear. - Certain orgs have bad reputation in terms of WLB (toxic positivity, short term impact chasing, etc) - Negative public perception in the West; however, public perception is quite good in Asia",nil
+90,-Amazing projects -Dynamic -Incredible comp,"-Lots of wasted effort -Really political, everyone jockying for visible impact",nil
+91,"- Amazing and talented people to learn from. - Meta prioritizes what makes you work best (Work from home or office, food, office appliances, premium benefits, etc.) - Meta understands the value of a diverse and inclusive team","- Big and complex organization. It takes a year to process a vast amount of institutional information and find your place within the organization. - Difficult to get immediate support for day-to-day tasks due to highly distributed and asynchronous work. Most of the time, you have to schedule meetings or wait for chat responses to solve issues easily solved in in-person environments. - Many roles focus on minor aspects of the platform. It isn't easy to find a space to have an impact. - No commitment to ensure a successful onboarding experience.",nil
+92,"Love it here. Meta gets a lot of hate, but I come from a career background where I didn't have any perks and had to work a few terrible jobs before finally landing in tech. The offices are amazing, the internal tools make the job so much simpler than other places I've worked, and if you work hard people will recognize you for your contributions.",Negative press can be daunting at times. We've seen how slanted the media can get with it's 'Meta never does any good' approach though and you learn to live with it.,nil
+93,The people are nice and the pay is decent,There are constant organizational changes which causes constant uncertainty,nil
+94,"Great Salary, Great Benefits, Great work life balance","Fast Paced, Poor Performance Management Structure, Siloed Work Environments.",nil
+95,"Exceptional benefits including on site food, snacks, drinks, and Life@choice program.",Too many layers of management is an un-necessary cost during these rough times for the technology sector. Company has over-spent on real estate when many employees work from home.,nil
+96,Run while you can. This is a toxic dumpster fire,See the pros :). Not worth it,nil
+97,excellent pay and benefits. interesting work.,Basically everything you see in the news,nil
+98,"I had a great team at Meta, everyone was hard working, smart, and really played into the team mentality, even if we were spread across the US and we were primarily all remote. I still felt super connected with my team and we did our best to stay connected and felt welcome.","There's a lot of brilliant people at Meta, but the organization lacked documentation and knowledge transfer. Things also moved very slow to make changes. but the good thing is that everyone is willing to work together to achieve a common goal, even if it's cross-functionally.",nil
+99,Truly great products and dedicated teams,"Top leadership tend to be political, more than elsewhere, more than before",nil
+100,Meta has talented people doing good work,There is a low level of trust in the direction of the company,nil
+101,"Pay is great, even for tech",It is oddly dysfunctional. The company consists mainly of folks who know how to survive.,nil
+102,"Industry-leading benefits for fertility and transgender support; great healthcare, mental healthcare, and other family benefits Competitive pay Annual Equity Refreshers Remote Work friendly Smart, nice colleagues","Convoluted corporate structure that can get in the way of driving impact Senior leadership at the company has all turned over recently New direction towards the Metaverse is polarizing, may or may not work financially Competition is eating into core ads business (TikTok) Handled layoffs poorly; signals a change in culture related to people The Press loves to hate the company and Zuck Constant regulatory scrutiny will hamper company's ability to operate and expand through acquisitions",nil
+103,- Very open and transparent - Flexible working hours and location - Comprehensive infra stack - Experienced colleagues - Fast promotion cycle - Good pay and wellness support,"- Some teams can get pretty busy, especially in ads - Making impact is emphasized too much",nil
+104,"- Very good short term opportunity in terms of business growth, stock price trading very low right now - Great benefits - Salary is top of the industry in tech, esp for non-swe - Flexible RTO policy - Ability to have high impact given the reach of Meta's products - Higher than expected transparency from leadership (bi weekly QnAs with employee submitted questions and polls). These are not like other QnAs from other tech companies.","- Long term vision (metaverse, reality labs) is controversial (although I believe in it, I can see why someone would be hesitant). This makes long term growth potential of the business unclear. - Certain orgs have bad reputation in terms of WLB (toxic positivity, short term impact chasing, etc) - Negative public perception in the West; however, public perception is quite good in Asia",nil
+105,Big company with great benefits and perks. They pay really well and if you just want to do a job and get paid to do that then it's amazing.,"It's a massive company that has been around for a long time, so they are very set in their ways with regard to the software they use, the processes and procedures of the work, and who does what. Don't expect actually to grow or learn much. The software they use is all internal, so it won't apply outside of the company. The job you are hired for is the only job you will do so there isn't a lot of thinking outside the box.",nil
+106,Pay and benefits were top tier,"Politics, culture, company direction all disappointing. Exceptionally let down by poor management and leadership. I expected better.",nil
+107,- internal tooling - smart passionate people,metrics metrics metrics r everything,nil
+108,"Meta at it's core is still about rewarding high-performers. Even with the lay-offs, those who are willing to push will be rewarded. You work with brilliant people and will have opportunities to solve really hard problems.","It's very hard to ""slow down"" here.",nil
+109,"My team is humble, supportive, and hard working. Everyone I work with is at the top of their field (design, user research, product, engineering) and are also genuinely amazing human beings. Meta continuously supports me as a people manager with high autonomy, training, tools, and leadership opportunities. This means I'm always doing my best work and growing in my career. Leadership is extremely transparent about goals and challenges. Even amid layoffs communication is frequent, direct, and gets right to the heart of difficult topics.",Bottoms up decision making sometimes makes goals fuzzy and can lead to duplication of efforts in separate orgs. You need a high tolerance for ambiguity to thrive at Meta. Public opinion of Meta is often unbalanced with lots of uninformed opinions.,nil
 110,"My team is humble, supportive, and hard working. Everyone I work with is at the top of their field (design, user research, product, engineering) and are also genuinely amazing human beings. Meta continuously supports me as a people manager with high autonomy, training, tools, and leadership opportunities. This means I'm always doing my best work and growing in my career. Leadership is extremely transparent about goals and challenges. Even amid layoffs communication is frequent, direct, and gets right to the heart of difficult topics.",Bottoms up decision making sometimes makes goals fuzzy and can lead to duplication of efforts in separate orgs. You need a high tolerance for ambiguity to thrive at Meta. Public opinion of Meta is often unbalanced with lots of uninformed opinions.,nil
 111,"When I was there in 2021, the working culture was good. Respectful workspace, good benefits and WLB","Worrying growth potential with competition from Tiktok and aggressive investment in Metaverse. Sold all my stocks at 330$ after I left,",nil
 112,Coworkers have strong background and mostly friendly,There's limited opportunities and culture is toxic,nil
@@ -171,7 +171,7 @@ Google's organization is now very structured and hierarchical. Facebook is havin
 114,"People are great, helpful and collaborative. The culture is okay. There are many projects to choose from and easy to switch teams.",With more systems being mature and complex it’s harder to find impact.,nil
 115,Great place to grow if you have the right leadership and take advantage of all the company has to offer.,"Never slows down, high focus on performance can create stress",nil
 116,"Very good tools, good pay and benefits","Unstable, bottom up culture leads to SWE doing most of the work",nil
-117,#NAME?,#NAME?,nil
+117,- Bright and driven coworkers - Access to a lot other product areas via internal platform: opportunities to learn - Great perks and benefits,"- Work can be intense, too much effort spent on performance review/calibration - Not easy to navigate a complex org. so many roles between product teams and Sales. too much time spent on driving alignment with XFns instead of doing the work - Multiple challenges hitting ads business hard (signal loss, competition), burning too much money in Metaverse without making any big progress - Low moral because of recent policies e.g. layoff/hiring freeze",nil
 118,"Benefits, salary, and good people","Typical politics, goes through negative press cycles which can be a distraction",nil
 119,"Great benefits, smart people, ambitious",Company has gotten too big and unfocused. Lost relevance with younger folks,nil
 120,"Awesome, great, amazing, cool, nice","beware of layoffs, but other than that great time",nil
@@ -181,29 +181,29 @@ Google's organization is now very structured and hierarchical. Facebook is havin
 124,"Industry-leading benefits for fertility and transgender support; great healthcare, mental healthcare, and other family benefits Competitive pay Annual Equity Refreshers Remote Work friendly Smart, nice colleagues","Convoluted corporate structure that can get in the way of driving impact Senior leadership at the company has all turned over recently New direction towards the Metaverse is polarizing, may or may not work financially Competition is eating into core ads business (TikTok) Handled layoffs poorly; signals a change in culture related to people The Press loves to hate the company and Zuck Constant regulatory scrutiny will hamper company's ability to operate and expand through acquisitions",nil
 125,"Great benefits, comps, and inclusion. Every coworkers are very respectful and smart.","Continuous changes of focus and reorgs, and lack of proper management. After the layoff, the engineers definitely take a lot of the work for project management works and definitely much higher expectations",nil
 126,Excellent Benefits Excellent Bonus Good People,"Not as good as it used to be Too much focus on ""impact"", not so much focus on culture.",nil
-127,#NAME?,#NAME?,nil
+127,- Very open and transparent - Flexible working hours and location - Comprehensive infra stack - Experienced colleagues - Fast promotion cycle - Good pay and wellness support,"- Some teams can get pretty busy, especially in ads - Making impact is emphasized too much",nil
 128,"$$$, free breakfast and lunch, good benefits",Every manager hates their job and most of them take it out on the ones who are doing the work. Culture of the company isn’t ready for the failed business plan that they are headed towards. HR does not protect the workers from managers who bully and plot.,nil
 129,"- Very good short term opportunity in terms of business growth, stock price trading very low right now - Great benefits - Salary is top of the industry in tech, esp for non-swe - Flexible RTO policy - Ability to have high impact given the reach of Meta's products - Higher than expected transparency from leadership (bi weekly QnAs with employee submitted questions and polls). These are not like other QnAs from other tech companies.","- Long term vision (metaverse, reality labs) is controversial (although I believe in it, I can see why someone would be hesitant). This makes long term growth potential of the business unclear. - Certain orgs have bad reputation in terms of WLB (toxic positivity, short term impact chasing, etc) - Negative public perception in the West; however, public perception is quite good in Asia",nil
-130,Best coworkers I've encountered in my career,Hours can be long for some,nil
-131,"Depends on team, but the team I worked at had lots of work to do and very little down time. Benefits are great with free food.",Super heavy focus on performance review (PSC). Seems like a waste of time.,nil
-132,Good benefits package and motivated environment.,"I think this place fits the general expectations of working for a company this size. If you expect to have an unbalanced work life balance, and a competitive environment it will serve you best.",nil
-133,"Many great benefits. Fun, driven, culture. You can switch teams if you want (after interviewing, of course).","Admin promotions are tied to the Executive they support. So if your Exec doesnt get promo'd, neither do you.",nil
-134,"The culture is amazing and collaborative. If I ever had a challenge with getting something done, I felt like I had the support of every member my team. The autonomy we enjoyed was second to none. My manager always check up on me to make sure my workload wasn't to much.","To many meetings. If there is one thing I would change is the amount of meetings conducted through out the company. It's great to have a culture where collaboration/communication are at the core of a company's values. However, there is a point where the meetings get in the way of gettings done for you projects.",nil
-135,great people to work with,"leadership makes you feel warm and fuzzy, but it's all BS",nil
-136,Work-life balance Breadth of opportunities,Size of company sometimes results in heavy administrative burden,nil
-137,Meta gives employees great perks!,"Meta is a great company, no cons",nil
-138,"Great perks (benefits, insurance, food etc) Personable colleagues Interesting work",Broken performance review system (not a meritocracy) Undue pressure Relentless extended workload,nil
-139,#NAME?,"- Culture changed after 2022 layoffs - The fun tech vibe is gone now - Depressing atmosphere - Too involved in ""Metaverse""",nil
-140,#NAME?,#NAME?,nil
-141,"Top tier benefits, good developer experience, helpful coworkers",#NAME?,nil
-142,"Good TC, free food and friendly people!","Worse WLB, not interested in Metaverse.",nil
-143,#NAME?,#NAME?,nil
-144,"Amazing scale, great people, high salary and rewards for high achievers","Speed has gone down over time, perks are getting cut.",nil
-145,#NAME?,"- Work life balance - a LOT of people work >50 hours per week - um, the recent layoffs. wondering what that will do to the culture. - UX Researcher comp is not competitive; you'll make more at Google, Apple, etc. (but management has promised to address) - very supportive of remote work",nil
-146,Benefits and food in the office,The layoff was shocking and complete chaos,nil
-147,"good benefits, great pays, bottom up culture",PSC is a headache. bad manager(who is fresher than me) ruined my passion,nil
-148,Great perks in and out of office,Poor work life balance Poor management High burnout,nil
-149,#NAME?,"- Intense work experience if you want to grow - Company is run unilaterally; one man owns a commanding share of the company and you never forget it. - Heavy-handed political stances and bias cause distrust from the consumer, and very little is done to address it in a meaningful actions. Instead it's assumed the consumer is wrong.",nil
+130,great people to work with,"leadership makes you feel warm and fuzzy, but it's all BS",nil
+131,Work-life balance Breadth of opportunities,Size of company sometimes results in heavy administrative burden,nil
+132,Meta gives employees great perks!,"Meta is a great company, no cons",nil
+133,"Great perks (benefits, insurance, food etc) Personable colleagues Interesting work",Broken performance review system (not a meritocracy) Undue pressure Relentless extended workload,nil
+134,- Great benefits - Understanding culture - Great work/life balance - Fun workplace - Great people,"- Culture changed after 2022 layoffs - The fun tech vibe is gone now - Depressing atmosphere - Too involved in ""Metaverse""",nil
+135,- comp and benefits are fantastic - get to learn an incredible amount of tech in a short time,"- generally a hated company so can be hard to recruit for - feels more like an agency than a corporate role with a heavy emphasis on metrics - not a lot of opportunity to do work outside of direct role such as process improvements, side projects, or even skill set growth",nil
+136,"Top tier benefits, good developer experience, helpful coworkers",- Very opaque with company strategies - Intense work culture - Entire company organized around gaming performance reviews - Will lay you off,nil
+137,"Good TC, free food and friendly people!","Worse WLB, not interested in Metaverse.",nil
+138,- Best of class talent - Ability to launch products to large user base - Great benefits,"- Political Environment, those who write the most and are most vocal win out. - Very little use of data, very poor data implementation - Too many teams, multiple teams with the same charter competing with each other - Tons of wasted projects",nil
+139,"Amazing scale, great people, high salary and rewards for high achievers","Speed has gone down over time, perks are getting cut.",nil
+140,Great place to grow if you have the right leadership and take advantage of all the company has to offer.,"Never slows down, high focus on performance can create stress",nil
+141,"Very good tools, good pay and benefits","Unstable, bottom up culture leads to SWE doing most of the work",nil
+142,- Bright and driven coworkers - Access to a lot other product areas via internal platform: opportunities to learn - Great perks and benefits,"- Work can be intense, too much effort spent on performance review/calibration - Not easy to navigate a complex org. so many roles between product teams and Sales. too much time spent on driving alignment with XFns instead of doing the work - Multiple challenges hitting ads business hard (signal loss, competition), burning too much money in Metaverse without making any big progress - Low moral because of recent policies e.g. layoff/hiring freeze",nil
+143,A lot of company freedom No required working hours,Company went on a hiring freeze Laid people off Decision making before thinking about the bigger picture and how it affects people,nil
+144,"Benefits, salary, and good people","Typical politics, goes through negative press cycles which can be a distraction",nil
+145,"Great benefits, smart people, ambitious",Company has gotten too big and unfocused. Lost relevance with younger folks,nil
+146,Nice company. Good hours and friends.,"None really, maybe bad location for me.",nil
+147,"Team communication, opportunity for project work, benefits and salary.","Not many opportunities for advancement, layoffs.",nil
+148,"Great benefits, competitive base pay, empathetic and transparent leaders",High Stakes due to competition in Tech,nil
+149,All the benefits provided within the company is pretty unmatched from any of my peers working at other companies and other places I have worked. The pay was comparatively high of that of other recruiting roles.,Things were pretty unstable at times You could invest a lot of time doing something and then it would all go into smoke the next day without working because it was deemed unnecessary now which was pretty defeating.,nil
 150,"Benefits, salary, and good people","Typical politics, goes through negative press cycles which can be a distraction",nil
 151,Nice company. Good hours and friends.,"None really, maybe bad location for me.",nil
 152,"Team communication, opportunity for project work, benefits and salary.","Not many opportunities for advancement, layoffs.",nil
@@ -214,129 +214,129 @@ Google's organization is now very structured and hierarchical. Facebook is havin
 157,Best coworkers I've encountered in my career,Hours can be long for some,nil
 158,"Depends on team, but the team I worked at had lots of work to do and very little down time. Benefits are great with free food.",Super heavy focus on performance review (PSC). Seems like a waste of time.,nil
 159,Good benefits package and motivated environment.,"I think this place fits the general expectations of working for a company this size. If you expect to have an unbalanced work life balance, and a competitive environment it will serve you best.",nil
-160,"Amazing benefits, really smart people everywhere",High-pressure is constant and the more you deliver the more that is expected of you. hard to set a healthy work/life balance if you want to move up the ladder.,nil
-161,learn a ton; work with mostly great people; access to new tech,not everyone is great; culture is problematic; constant changing of priorities & minimal alignment at top levels; lots of conflict,nil
-162,"Benefits, competitive pay, work culture, and flexibility",Larger company so harder to contribute,nil
-163,I like the food cause it was free,Provides no transportation to the office,nil
-164,"smart and passionate people, financial reward = $$$","needs direction and purpose, grew too quickly",nil
-165,I loved the free food and benefits!,Blocked bootcampers from joining a team.,nil
-166,Pay is good for most,Layoffs they dont care about you,nil
-167,Smart People to work with. Love the team culture. Bottom up culture,More work than can be done. Lots of reorg/trash.,nil
-168,Salary is good and free food,Work pressure and layoff problem,nil
-169,Many interesting projects. Bootcamp. Work environment,Not aware about any serious issues.,nil
-170,"Founder-led company in truly interesting spaces in the heart of the Internet/Tech economy. Meta (Facebook) has so many strengths in being able to impact billions of people across the world, and it builds amazing products that are changing the landscape of computing with Quest and future products.","Outside of Instagram, Whatsapp, and Reality Labs Research, there is still a lot of skill gaps in deep product conviction and craftsmanship. There are so many leaders, Engineers, Product Managers, and designers doing things to make a metric, a revenue/retention/growth number, or move up in their careers and personal success. This means that sometimes, solving deep product problems on the behalf of customers, with 100% focus on making their lives better and building something great is hard to get through leaders and build. This creates pockets of politics that feel disconnected from making our customers happy. It also makes it feel like we'll do anything to maintain growth and numbers against competitors taking share from us rather than asking if a fast follow copying of features is good for the heart and soul of what we're good at as a company and what will make the job our customers hire us to do in their lives fulfilled even better.",nil
-171,"The company has nice perks: pays well, onsite gyms, medical offices, and free food.",Meta has had a lot more sudden top-down pivots lately. A couple projects that I spent a lot of time on got axed at the last minute.,nil
-172,#NAME?,#NAME?,nil
-173,great regarding the financial compensation,not a lot of work life balance,nil
-174,"People, Challenging problems, over-the-top perks",confusing conflict of bottom-up AND top-down not enough folks to to all we want to do,nil
-175,Run while you can. This is a toxic dumpster fire,See the pros :). Not worth it,nil
-176,excellent pay and benefits. interesting work.,Basically everything you see in the news,nil
-177,Lots of talented people leaders to learn from Fast-paced environment,Tough goals Manager was not invested in my growth,nil
-178,Truly great products and dedicated teams,"Top leadership tend to be political, more than elsewhere, more than before",nil
-179,Growth Opportunities Health Benefits Work Environment Wellness Benefits,Very fast pace environment (not necessarily bad but demanding at times),nil
+160,"smart and passionate people, financial reward = $$$","needs direction and purpose, grew too quickly",nil
+161,I loved the free food and benefits!,Blocked bootcampers from joining a team.,nil
+162,Pay is good for most,Layoffs they dont care about you,nil
+163,Smart People to work with. Love the team culture. Bottom up culture,More work than can be done. Lots of reorg/trash.,nil
+164,Salary is good and free food,Work pressure and layoff problem,nil
+165,Many interesting projects. Bootcamp. Work environment,Not aware about any serious issues.,nil
+166,"Founder-led company in truly interesting spaces in the heart of the Internet/Tech economy. Meta (Facebook) has so many strengths in being able to impact billions of people across the world, and it builds amazing products that are changing the landscape of computing with Quest and future products.","Outside of Instagram, Whatsapp, and Reality Labs Research, there is still a lot of skill gaps in deep product conviction and craftsmanship. There are so many leaders, Engineers, Product Managers, and designers doing things to make a metric, a revenue/retention/growth number, or move up in their careers and personal success. This means that sometimes, solving deep product problems on the behalf of customers, with 100% focus on making their lives better and building something great is hard to get through leaders and build. This creates pockets of politics that feel disconnected from making our customers happy. It also makes it feel like we'll do anything to maintain growth and numbers against competitors taking share from us rather than asking if a fast follow copying of features is good for the heart and soul of what we're good at as a company and what will make the job our customers hire us to do in their lives fulfilled even better.",nil
+167,"The company has nice perks: pays well, onsite gyms, medical offices, and free food.",Meta has had a lot more sudden top-down pivots lately. A couple projects that I spent a lot of time on got axed at the last minute.,nil
+168,- plenty of opportunities for growth,- proprietary tooling - culture revolves around performance review,nil
+169,great regarding the financial compensation,not a lot of work life balance,nil
+170,Many interesting projects. Bootcamp. Work environment,Not aware about any serious issues.,nil
+171,"Founder-led company in truly interesting spaces in the heart of the Internet/Tech economy. Meta (Facebook) has so many strengths in being able to impact billions of people across the world, and it builds amazing products that are changing the landscape of computing with Quest and future products.","Outside of Instagram, Whatsapp, and Reality Labs Research, there is still a lot of skill gaps in deep product conviction and craftsmanship. There are so many leaders, Engineers, Product Managers, and designers doing things to make a metric, a revenue/retention/growth number, or move up in their careers and personal success. This means that sometimes, solving deep product problems on the behalf of customers, with 100% focus on making their lives better and building something great is hard to get through leaders and build. This creates pockets of politics that feel disconnected from making our customers happy. It also makes it feel like we'll do anything to maintain growth and numbers against competitors taking share from us rather than asking if a fast follow copying of features is good for the heart and soul of what we're good at as a company and what will make the job our customers hire us to do in their lives fulfilled even better.",nil
+172,"The company has nice perks: pays well, onsite gyms, medical offices, and free food.",Meta has had a lot more sudden top-down pivots lately. A couple projects that I spent a lot of time on got axed at the last minute.,nil
+173,- plenty of opportunities for growth,- proprietary tooling - culture revolves around performance review,nil
+174,great regarding the financial compensation,not a lot of work life balance,nil
+175,"People, Challenging problems, over-the-top perks",confusing conflict of bottom-up AND top-down not enough folks to to all we want to do,nil
+176,Run while you can. This is a toxic dumpster fire,See the pros :). Not worth it,nil
+177,excellent pay and benefits. interesting work.,Basically everything you see in the news,nil
+178,Lots of talented people leaders to learn from Fast-paced environment,Tough goals Manager was not invested in my growth,nil
+179,Truly great products and dedicated teams,"Top leadership tend to be political, more than elsewhere, more than before",nil
 180,Growth Opportunities Health Benefits Work Environment Wellness Benefits,Very fast pace environment (not necessarily bad but demanding at times),nil
 181,Good pay and great perks,Can feel like a cog in the wheel! Find a team with awesome people.,nil
-182,#NAME?,#NAME?,nil
+182,- World-class benefits and compensations - Open and diverse culture - Engineering-led - Flexibility with career growth plans,- Work-life balance - Projects are not all well defined - Extremely competitive culture,nil
 183,Really Great Community and Learning Culture,"Sometimes the work you do doesn't feel as impactful , mostly growth based work",nil
-184,"- Scale, learn how to scale solutions - Benefits (egg freezing, health insurance, food) - Networking - you'll meet the best and most talented in the field",#NAME?,nil
-185,They have great pay and benefits.,Not a lot of transparency from the leadership,nil
-186,Good total comp + Perks,"Reorgs happen regularly, multiple team changes in months",nil
-187,Inclusive culture Work / life balance. Very flexible work schedules Excellent people,"Each team is handled differently, but my team had plenty of pointless meetings themed around building up team culture (we were remote). It was often shared with management that these meetings were unnecessary and members would prefer to have back, yet the meetings stayed on calendar.",nil
-188,"Great teammates, challenging projects, plenty of resources to skill up",Poor leadership communication and strategy. Make decisions based on Bain consultants and layoff 10% of the company. Your job is not safe.,nil
-189,Talented people. Great benefits. Flexible location.,The core social media business is facing challenges.,nil
-190,"Founder-led company in truly interesting spaces in the heart of the Internet/Tech economy. Meta (Facebook) has so many strengths in being able to impact billions of people across the world, and it builds amazing products that are changing the landscape of computing with Quest and future products.","Outside of Instagram, Whatsapp, and Reality Labs Research, there is still a lot of skill gaps in deep product conviction and craftsmanship. There are so many leaders, Engineers, Product Managers, and designers doing things to make a metric, a revenue/retention/growth number, or move up in their careers and personal success. This means that sometimes, solving deep product problems on the behalf of customers, with 100% focus on making their lives better and building something great is hard to get through leaders and build. This creates pockets of politics that feel disconnected from making our customers happy. It also makes it feel like we'll do anything to maintain growth and numbers against competitors taking share from us rather than asking if a fast follow copying of features is good for the heart and soul of what we're good at as a company and what will make the job our customers hire us to do in their lives fulfilled even better.",nil
-191,work life balance; good benefits,"the company is not running at the best efficiency, no clear vision for some of the products under working.",nil
-192,"The company has nice perks: pays well, onsite gyms, medical offices, and free food.",Meta has had a lot more sudden top-down pivots lately. A couple projects that I spent a lot of time on got axed at the last minute.,nil
-193,#NAME?,#NAME?,nil
-194,"Interesting work, great culture, smart teammates","Job security, work life balance",nil
-195,great regarding the financial compensation,not a lot of work life balance,nil
-196,Compensation My team members No one suffers alone,"Senior leadership lacks accountability for business performance, costs and care of workforce The business model is failing with no hope of correction Complete lack of credibility of senior leadership which lies outright They have no avenue to success. They are no longer relevant",nil
-197,"People, Challenging problems, over-the-top perks",confusing conflict of bottom-up AND top-down not enough folks to to all we want to do,nil
-198,Lots of talented people leaders to learn from Fast-paced environment,Tough goals Manager was not invested in my growth,nil
-199,High performing teammates and challenging projects.,Moving further into a high corporate environment has significantly changed the culture.,nil
-200,"Interesting work, great culture, smart teammates","Job security, work life balance",nil
-201,Compensation My team members No one suffers alone,"Senior leadership lacks accountability for business performance, costs and care of workforce The business model is failing with no hope of correction Complete lack of credibility of senior leadership which lies outright They have no avenue to success. They are no longer relevant",nil
-202,"People, Challenging problems, over-the-top perks",confusing conflict of bottom-up AND top-down not enough folks to to all we want to do,nil
-203,Lots of talented people leaders to learn from Fast-paced environment,Tough goals Manager was not invested in my growth,nil
-204,High performing teammates and challenging projects.,Moving further into a high corporate environment has significantly changed the culture.,nil
-205,Growth Opportunities Health Benefits Work Environment Wellness Benefits,Very fast pace environment (not necessarily bad but demanding at times),nil
-206,"Work with modern technologies, interesting problem set","Lack of documentation, lack of communication, lack of direction",nil
-207,#NAME?,#NAME?,nil
-208,Really Great Community and Learning Culture,"Sometimes the work you do doesn't feel as impactful , mostly growth based work",nil
-209,"- Scale, learn how to scale solutions - Benefits (egg freezing, health insurance, food) - Networking - you'll meet the best and most talented in the field",#NAME?,nil
-210,They have great pay and benefits.,Not a lot of transparency from the leadership,nil
+184,"- Scale, learn how to scale solutions - Benefits (egg freezing, health insurance, food) - Networking - you'll meet the best and most talented in the field",- Difficult to get promos and career growth,nil
+185,Good total comp + Perks,"Reorgs happen regularly, multiple team changes in months",nil
+186,Inclusive culture Work / life balance. Very flexible work schedules Excellent people,"Each team is handled differently, but my team had plenty of pointless meetings themed around building up team culture (we were remote). It was often shared with management that these meetings were unnecessary and members would prefer to have back, yet the meetings stayed on calendar.",nil
+187,"Great teammates, challenging projects, plenty of resources to skill up",Poor leadership communication and strategy. Make decisions based on Bain consultants and layoff 10% of the company. Your job is not safe.,nil
+188,Talented people. Great benefits. Flexible location.,The core social media business is facing challenges.,nil
+189,"Great overall company. It doesn't get much better than this. A respectiveful culture, amazing 50% 401k match, lots of perks like free food, shuttles, relocation, great reputable and professional experience","Work life balance is the only con. Trust me, you will work a lot. While it is also not a horrible work environment and you can manage this and set expecatations with manager and team, overall the general culture is fast paced, constantly doing a lot and everything, high performance expectation which will have you busy all year.",nil
+190,they pay good for the job,bad work-life balance and a lot of pressure,nil
+191,Interesting work. Amazingly talented and collaborative people.,Management transparency and trustworthiness. Strategy churn.,nil
+192,"Meta is a culture of innovators, builders and creators that encourages and welcomes all ideas.",None so far as my experience has been very positive!,nil
+193,they care about their employees. Take care of them with amazing benefits and work life balance,couldn't keep up with the fluctuating market- mass layoffs,nil
+194,- work life balance - compensation,- company leadership structure - lack of hustle,nil
+195,the total compensation is highly competitive,work-life balance is really terrible,nil
+196,- interesting work - good colleagues,- unsure of leadership priorities,nil
+197,"In my function, I mostly enjoyed the people I worked with. There is a friendly culture and people have good intentions. I think the leadership also has good intent, and they provided a lot of support through out COVID. Benefits are generous (at least for the time being).","If you like clear direction, this may not be the company for you. In my experience, there was a lack of expectations, process and support, in every role I stepped into (3 total). Prioritization was also lacking, although this is starting to change now that the company is more resource-constrained. I encountered some bias from the leadership of my function, where they formed an opinion about you based on someone's impression, and then didn't provide a fair chance. Lastly, the HR function there has some power dynamics.",nil
+198,managers growth opportunity flexibility compensation benefits,none come to mind. overall great company but was affected with layoff.,nil
+199,Everything is awesome here amazing,No bad things to say about meta,nil
+200,the total compensation is highly competitive,work-life balance is really terrible,nil
+201,- interesting work - good colleagues,- unsure of leadership priorities,nil
+202,"In my function, I mostly enjoyed the people I worked with. There is a friendly culture and people have good intentions. I think the leadership also has good intent, and they provided a lot of support through out COVID. Benefits are generous (at least for the time being).","If you like clear direction, this may not be the company for you. In my experience, there was a lack of expectations, process and support, in every role I stepped into (3 total). Prioritization was also lacking, although this is starting to change now that the company is more resource-constrained. I encountered some bias from the leadership of my function, where they formed an opinion about you based on someone's impression, and then didn't provide a fair chance. Lastly, the HR function there has some power dynamics.",nil
+203,managers growth opportunity flexibility compensation benefits,none come to mind. overall great company but was affected with layoff.,nil
+204,"Generally speaking, it's been good.",layoffs and overall company morale has been low.,nil
+205,Everything is awesome here amazing,No bad things to say about meta,nil
+206,"awesome mentorship, feedback, really smart engineers to work with interesting problems and everything is super well documented at Meta.","A little too much emphasis on performance review cycles, it seems like anything anyone does is done to maximize that rating. Some teams have bad work life balance.",nil
+207,"Great people work there. Very collaborative. Lots of data, lots of tools, lots of great ideas. The benefits are amazing and they pay competitively.",Chaotic. Subject to the ebbs and flows and idiosyncrasies of younger generation. Struggling to be in competition with Tic-Toc. Chaotic environment. Lots of ambiguity.,nil
+208,"Industry leading benefits, leadership transparency, flexibility, problem solving culture",Lots of collaboration and working with ambiguity needed,nil
+209,it was really great thanks,there was nothing bad that happened,nil
+210,"- Scale, learn how to scale solutions - Benefits (egg freezing, health insurance, food) - Networking - you'll meet the best and most talented in the field",- Difficult to get promos and career growth,nil
 211,Good total comp + Perks,"Reorgs happen regularly, multiple team changes in months",nil
 212,Inclusive culture Work / life balance. Very flexible work schedules Excellent people,"Each team is handled differently, but my team had plenty of pointless meetings themed around building up team culture (we were remote). It was often shared with management that these meetings were unnecessary and members would prefer to have back, yet the meetings stayed on calendar.",nil
 213,"Great teammates, challenging projects, plenty of resources to skill up",Poor leadership communication and strategy. Make decisions based on Bain consultants and layoff 10% of the company. Your job is not safe.,nil
 214,Talented people. Great benefits. Flexible location.,The core social media business is facing challenges.,nil
 215,"Great overall company. It doesn't get much better than this. A respectiveful culture, amazing 50% 401k match, lots of perks like free food, shuttles, relocation, great reputable and professional experience","Work life balance is the only con. Trust me, you will work a lot. While it is also not a horrible work environment and you can manage this and set expecatations with manager and team, overall the general culture is fast paced, constantly doing a lot and everything, high performance expectation which will have you busy all year.",nil
 216,"Work-life balance, great company culture, amazing team bulding",Layoffs and room for growth.,nil
-217,Great managers A lot of innovation Flexibility Ability to promote,A lot of complexity Projects change often,nil
-218,"Good pay, benefits and perks, free food","Toxic culture based on performance reviews. They literally give you bonus points if you ""generate"" or ""feed"" work for other engineers. They don't value good work or elegant design or reliable software, instead they value # of bugs and issues fixed. Hence people write crappy software with lots of bugs and then either fix bugs or, more often, hire another engineer to rewrite the whole thing and cycle repeats. No wonder Metaverse didn't take off and they are laying off people.",nil
-219,they pay good for the job,bad work-life balance and a lot of pressure,nil
-220,It's a good place for new grad to grow,the culture is sometimes toxis,nil
-221,"free food, free everything .","bad manager, bad psc, no career growth",nil
-222,"good comp. good benefits, smart coworkers",long hours. teammates push code late at night,nil
-223,#NAME?,"- Original Facebook culture is dead. For example ""Be Open"" is no longer a company value. - It has become a large tech corporate. - Projects are driven by PSC (Performance Summary Cycle) and not by long term goals - If you don't work in Reality Labs, you have no idea of what that org is working on. Which is very demotivating.",nil
-224,Empowered to make decisions “No” is also an acceptable solution to some requests Your team has your back,Too much information…takes a while to learn what to tune out Org is huge—not always clear where we see going,nil
-225,"Great benefits, comps, and inclusion. Every coworkers are very respectful and smart.","Continuous changes of focus and reorgs, and lack of proper management. After the layoff, the engineers definitely take a lot of the work for project management works and definitely much higher expectations",nil
-226,Great company Great work-life balance Great facilities and technology,Unequal pay for software and hardware engineers.,nil
-227,Excellent Benefits Excellent Bonus Good People,"Not as good as it used to be Too much focus on ""impact"", not so much focus on culture.",nil
-228,"$$$, free breakfast and lunch, good benefits",Every manager hates their job and most of them take it out on the ones who are doing the work. Culture of the company isn’t ready for the failed business plan that they are headed towards. HR does not protect the workers from managers who bully and plot.,nil
-229,I had an excellent team. I got a lot of great experience that I could use toward the rest of my career.,Very length interview process that could be super bias against candidates.,nil
-230,#NAME?,#NAME?,nil
-231,"Great people work there. Very collaborative. Lots of data, lots of tools, lots of great ideas. The benefits are amazing and they pay competitively.",Chaotic. Subject to the ebbs and flows and idiosyncrasies of younger generation. Struggling to be in competition with Tic-Toc. Chaotic environment. Lots of ambiguity.,nil
-232,"Industry leading benefits, leadership transparency, flexibility, problem solving culture",Lots of collaboration and working with ambiguity needed,nil
-233,it was really great thanks,there was nothing bad that happened,nil
-234,good pay and good environment,too much workload sometimes on weekends,nil
-235,Amazing benefits and perks. Great coworkers. More than fair compensation.,Uncertain company direction and future,nil
-236,"Autonomy, great benefits, collaboration/networking with multiple teams",none that I can think of at this time,nil
-237,#NAME?,#NAME?,nil
-238,#NAME?,#NAME?,nil
-239,#NAME?,"What was once a bottom-up engineer driven company is now incredible top down and bureaucratic. It's expected at this scale, but as recently as 3 years ago I felt like engineers played a huge part in driving team/org direction. The org leads now can't decide what they want and don't consult engineering for scoping estimates, leading to tons of churn and frustration. Overall there's been a huge shift to monetization focused efforts, but even with that the leads will panic and pivot frequently, leading to a really difficult culture to actually get anything shipped",nil
-240,21 days pto company culture,"If you unfortunately meet a jerk manager, they will discount your efforts rather than bonus.",nil
-241,"Great benefits, extremely supportive people, lots of resources for training/learning",Team matching process is not very well structured,nil
-242,"The best reason to work at Meta is the great benefits, perks, and salary.","The downsides to working at Meta include swimming through all the internal Kool-Aid, navigating an extremely political work environment (especially as it relates to promotion cycles), and any ethical qualms you may have about working for a big machine.",nil
-243,"I love my job here, due to the macroeconomic conditions, we aren’t hiring so my job is super easy just meetings and rest",Too much stress at times not having a clear vision and goals. Managers are all resting and not response much,nil
-244,Pay Benefits Smart people Interesting products,"Misaligned goals across teams People/managers too PSC focused to get promoted Leads to unnecessary, pointless work Promotion is political",nil
-245,It's a good place for new grad to grow,the culture is sometimes toxis,nil
-246,- Good internal tooling - Flexibility in moving teams - Career growth if you're straight out of college - You get to work with smart folks,"- Wlb can get skewed due to PSC/Performance culture - Engineering culture can get a bit political where you find yourself doing more alignment, signal boosting, etc. vs doing actual engineering (but this is team/org dependent as well)",nil
-247,"good comp. good benefits, smart coworkers",long hours. teammates push code late at night,nil
-248,"Perks, Salary, Offices, food are top notch. Work is intresting in some roles.","Toxic culture due to PSC, mangers are not that supportive.",nil
-249,#NAME?,"- Original Facebook culture is dead. For example ""Be Open"" is no longer a company value. - It has become a large tech corporate. - Projects are driven by PSC (Performance Summary Cycle) and not by long term goals - If you don't work in Reality Labs, you have no idea of what that org is working on. Which is very demotivating.",nil
-250,I trust the ceo and like the people,nothing really to mention here,nil
-251,"Insane amounts of care for employees between unlimited sick days, cheap but world class benefits, advisors, free meals on site, and tech disbursements","Everything moves slow here. While work life balance is incredibly reasonable and fair, expect to work after hours on personal work if you want to make sure you do not stagnate as a ""meta employee"" as opposed to being relevant in your industry as a whole long-term",nil
-252,"Employee well-being, pay, flat organization, diverse team background, perks!","Redundant infra, slow internal tooling, peer pressure, short-term goal driven",nil
-253,"Benefits, Culture, Growth, People, Offices, Training resources","Overinvestment in Metaverse, a lot of consensus building, products with poor product market fit",nil
-254,Good flexibility benefits culture transparency,A lot of work to manage,nil
-255,"Opportunity to work remote, good pay, great benefits","Company is currently a bit volatile with the layoffs happening, it is hard to move up in your role",nil
-256,Everything. From benefits to culture to management to growth opportunities. Best job I've ever had.,None I can think of.,nil
-257,"Severance was 4 months which is amazing. 2 months of ""still an employee"" so visa status is fine. My coworkers where amazing people, coming to work was a blast.","You can get spontaneously laid off. Internal communication from leadership is incredibly bad and/or misleading. Work and life balance can get bad. Internal communication tool, Workplace, creates a very competitive and sometimes toxic working culture.",nil
-258,"Good worklife balance, pay and culture","Lots of reorganization happening, need to take initiatives in everything",nil
-259,"Amazing benefits, and fun company to be a part of.",Lots of changes that it's hard to keep up with at times.,nil
-260,Everything. From benefits to culture to management to growth opportunities. Best job I've ever had.,None I can think of.,nil
-261,"Severance was 4 months which is amazing. 2 months of ""still an employee"" so visa status is fine. My coworkers where amazing people, coming to work was a blast.","You can get spontaneously laid off. Internal communication from leadership is incredibly bad and/or misleading. Work and life balance can get bad. Internal communication tool, Workplace, creates a very competitive and sometimes toxic working culture.",nil
-262,"Good worklife balance, pay and culture","Lots of reorganization happening, need to take initiatives in everything",nil
-263,"Amazing benefits, and fun company to be a part of.",Lots of changes that it's hard to keep up with at times.,nil
-264,"High pay, visionary leader that is passionate",Very burnt out after November layoffs,nil
-265,I think it has the best work environment,No major problems but sometimes I feel less work life balance,nil
-266,"Awesome culture , benefits and ability to push thro ideas.",Leadership immature but empowered. Makes for potent combination to frustrate employees.,nil
-267,"Fast promotions for junior engineers, good benefits, good talent at the company.","High performance expectations, moderate-to-low WLB.",nil
-268,"Salary, company culture, pay, benefits","return offers rescinded, difficult economical times",nil
-269,"Great technology, great pay, great conditions",Screw in the mega machine,nil
-270,The culture encourages you to share your knowledge for success and you are able to work autonomous and as a team with the same goal in mind.,"There is Information overload at times, but having great leaders to help you focus on what's important helps.",nil
-271,"My engineering team is research adjacent, and we have a lot of creative freedom to solve our problems. Problems are always fresh and challenging, also have no production oriented deadlines and thus good work life balance (unlike the average team).","Stock price volatile. Depending on how ARVR takes to the market, there's really no lower bound to how low stock prices drop.",nil
-272,#NAME?,#NAME?,nil
-273,"Salary, offices all over the world, flexible working pattern","Peer pressure, Calibration pressure, bad WLB",nil
-274,fast paced if you're into that strong culture--everyone is very approachable great benefits + healthcare,"""refocus"" toward the Metaverse which won't have a payoff for years (if at all) the moral quandary of working with facebook products",nil
-275,"-flexibility -no micromanaging, get your job done and you're good -People - smart smart smart people -Healthy balance between professionalism and normalcy -Work life balance -3 meals a day",#NAME?,nil
-276,"Challenging work, caliber of coworkers, transparency of leadership, hybrid work policy. Kind, diverse, open culture like I didn’t believe possible in a large company.","Lots of scrutiny in the press, negative public perception",nil
-277,The job paid the bills,It was not what I was looking for,nil
-278,work life balance; good benefits,"the company is not running at the best efficiency, no clear vision for some of the products under working.",nil
-279,Hi salary and transparency in company,"Bad work life balance, heavy workload",nil
+217,They have great pay and benefits.,Not a lot of transparency from the leadership,nil
+218,Great managers A lot of innovation Flexibility Ability to promote,A lot of complexity Projects change often,nil
+219,"Good pay, benefits and perks, free food","Toxic culture based on performance reviews. They literally give you bonus points if you ""generate"" or ""feed"" work for other engineers. They don't value good work or elegant design or reliable software, instead they value # of bugs and issues fixed. Hence people write crappy software with lots of bugs and then either fix bugs or, more often, hire another engineer to rewrite the whole thing and cycle repeats. No wonder Metaverse didn't take off and they are laying off people.",nil
+220,Interesting work. Amazingly talented and collaborative people.,Management transparency and trustworthiness. Strategy churn.,nil
+221,"Meta is a culture of innovators, builders and creators that encourages and welcomes all ideas.",None so far as my experience has been very positive!,nil
+222,"Good pay, free food, free parking, some really great people, good work life balance, nice office,","I had the worst manager of my whole career and despite multiple chats with HR, nothing was done for months (manager was finally laid off). Prioritization and goals are very personality driven Employees can come across as entitled, huge focus in all hands meetings on benefits and time off instead of work Meta is the worst performing stock of the year- that says something about the company but also impacts performance Disjointed teams and poor collaboration, everything ends in an escalation",nil
+223,they care about their employees. Take care of them with amazing benefits and work life balance,couldn't keep up with the fluctuating market- mass layoffs,nil
+224,Good work hours and pay,Not much to do really,nil
+225,"Great colleagues, some of the brightest folks",Lack of progress. Lot of ideation and things dont move after that,nil
+226,- work life balance - compensation,- company leadership structure - lack of hustle,nil
+227,the total compensation is highly competitive,work-life balance is really terrible,nil
+228,- hard and interesting problems - very talented people around you,- PSC driven mentality making it annoying to do long term meaningful work sometimes,nil
+229,- interesting work - good colleagues,- unsure of leadership priorities,nil
+230,"Industry leading benefits, leadership transparency, flexibility, problem solving culture",Lots of collaboration and working with ambiguity needed,nil
+231,it was really great thanks,there was nothing bad that happened,nil
+232,good pay and good environment,too much workload sometimes on weekends,nil
+233,Amazing benefits and perks. Great coworkers. More than fair compensation.,Uncertain company direction and future,nil
+234,"Autonomy, great benefits, collaboration/networking with multiple teams",none that I can think of at this time,nil
+235,- Lots of perk s - Great pay - Bottoms-up culture gives you a lot of freedom to focus on what you are best at,- The fast-moving nature results in a lot of re-orgs and reprioritization of goals which can feel thrashy,nil
+236,-Good benefits -Interesting work -Nice teammates,-Lack of guidance for new grads,nil
+237,"- Good pay - Good benefits (insurance, convenience service)","What was once a bottom-up engineer driven company is now incredible top down and bureaucratic. It's expected at this scale, but as recently as 3 years ago I felt like engineers played a huge part in driving team/org direction. The org leads now can't decide what they want and don't consult engineering for scoping estimates, leading to tons of churn and frustration. Overall there's been a huge shift to monetization focused efforts, but even with that the leads will panic and pivot frequently, leading to a really difficult culture to actually get anything shipped",nil
+238,-High compensation -Challenge you to do your best work -High performance culture,-Chaotic with constant change -Burn out is real -Too much bureaucracy,nil
+239,"Good perks, transparent, talented colleague","Work life balance, peer pressure & psi",nil
+240,Great benefits and pay is good,Work life balance is not great,nil
+241,"Good pay, food, and culture",Need better management. Immigration process.,nil
+242,"Company tries hard to provide for employees, but the demands are high","Inexperienced, immature management, lots of folks started their careers at and “grew up at FB” but do not have varied experience. Lack of diversity or any significant, robust programs to increase diverse representations.",nil
+243,- all meals are provided on-campus/in-office - team is very accommodating and willing to help - generous PTO - room for growth in career + outside as well - wellness benefit can be used for other things besides Fitness reimbursement,- declining stock price - lots of ambiguity / make your own schedule (which can be a pro to some),nil
+244,"Excellent perks, health and wellness benefits, work life balance, compassionate people, impactful work.","Room for more business efficiencies (ie less redundant people managers, less subjective spending) and transparency from leadership.",nil
+245,"Diverse culture, great campus and wonderful perks!",There are no cons that I can think of.,nil
+246,Outstanding people to work with. I had the best manager and worked on the best team doing the most important work for DEI recruiting.,Meta was too aggressive in hiring during the pandemic which resulted in laying off most of the recruiting team,nil
+247,"working remotely, participating in different projects","promotion is based on IC, manager does not initiate this conversation",nil
+248,"What brought me here was the brand, what keeps me here are the challenges we face and the talented and fabulous people that I get to work with and learn from. In the two years that I have been here I have learned more than what I have learned in my entire career. I have learned from how others process information and look things, their approach to solving problems, how they structure information and the flags they raise. I have been able to see 'in action' different perspective that have brought awareness and growth, personally and professionally. The people I work with, is the number one reason I am still, and will continue to work here. A second important factor is the flexibility and multiple options that employees are given for returning to work post-pandemic. We have the ability to request remote work and relocate. Every employee has the option to tailor their work schedules and adopt to suite their life styles. Fair and competitive compensation and benefits are secondary.","Every workplace has opportunities for growth and while not everything is perfect at Meta, no one has said that we have stopped growing. The constant changes indicate the pains of growth and bring hope that things are being looked at and that feedback from employees is being applied. My advise to those who flag issues and are passionate about specific changes is to stick around, work internally and drive change. Don't leave, work and make a change!",nil
+249,I trust the ceo and like the people,nothing really to mention here,nil
+250,"Insane amounts of care for employees between unlimited sick days, cheap but world class benefits, advisors, free meals on site, and tech disbursements","Everything moves slow here. While work life balance is incredibly reasonable and fair, expect to work after hours on personal work if you want to make sure you do not stagnate as a ""meta employee"" as opposed to being relevant in your industry as a whole long-term",nil
+251,"Employee well-being, pay, flat organization, diverse team background, perks!","Redundant infra, slow internal tooling, peer pressure, short-term goal driven",nil
+252,"Benefits, Culture, Growth, People, Offices, Training resources","Overinvestment in Metaverse, a lot of consensus building, products with poor product market fit",nil
+253,Good flexibility benefits culture transparency,A lot of work to manage,nil
+254,"Opportunity to work remote, good pay, great benefits","Company is currently a bit volatile with the layoffs happening, it is hard to move up in your role",nil
+255,Everything. From benefits to culture to management to growth opportunities. Best job I've ever had.,None I can think of.,nil
+256,"Severance was 4 months which is amazing. 2 months of ""still an employee"" so visa status is fine. My coworkers where amazing people, coming to work was a blast.","You can get spontaneously laid off. Internal communication from leadership is incredibly bad and/or misleading. Work and life balance can get bad. Internal communication tool, Workplace, creates a very competitive and sometimes toxic working culture.",nil
+257,"Good worklife balance, pay and culture","Lots of reorganization happening, need to take initiatives in everything",nil
+258,"Amazing benefits, and fun company to be a part of.",Lots of changes that it's hard to keep up with at times.,nil
+259,"High pay, visionary leader that is passionate",Very burnt out after November layoffs,nil
+260,I think it has the best work environment,No major problems but sometimes I feel less work life balance,nil
+261,"Awesome culture , benefits and ability to push thro ideas.",Leadership immature but empowered. Makes for potent combination to frustrate employees.,nil
+262,"Fast promotions for junior engineers, good benefits, good talent at the company.","High performance expectations, moderate-to-low WLB.",nil
+263,"Salary, company culture, pay, benefits","return offers rescinded, difficult economical times",nil
+264,"Great technology, great pay, great conditions",Screw in the mega machine,nil
+265,It's a celebrity company so you get the exposure.,"Too much red tape, very structured.",nil
+266,lots of smart people to work with,Long hours depending on the team,nil
+267,Work-life balance Autonomy Great community to share ideas and experiences Opportunities to collab even in a remote setting,None that come to mind,nil
+268,Money is good for me,Lay off when I joined Meta in the 2nd month.,nil
+269,The culture encourages you to share your knowledge for success and you are able to work autonomous and as a team with the same goal in mind.,"There is Information overload at times, but having great leaders to help you focus on what's important helps.",nil
+270,It's a celebrity company so you get the exposure.,"Too much red tape, very structured.",nil
+271,lots of smart people to work with,Long hours depending on the team,nil
+272,Work-life balance Autonomy Great community to share ideas and experiences Opportunities to collab even in a remote setting,None that come to mind,nil
+273,Money is good for me,Lay off when I joined Meta in the 2nd month.,nil
+274,The culture encourages you to share your knowledge for success and you are able to work autonomous and as a team with the same goal in mind.,"There is Information overload at times, but having great leaders to help you focus on what's important helps.",nil
+275,"My engineering team is research adjacent, and we have a lot of creative freedom to solve our problems. Problems are always fresh and challenging, also have no production oriented deadlines and thus good work life balance (unlike the average team).","Stock price volatile. Depending on how ARVR takes to the market, there's really no lower bound to how low stock prices drop.",nil
+276,-String team environment -Great pay -Valuable skill growth,-Workload -Fast pace -Upholding brand identity,nil
+277,"Salary, offices all over the world, flexible working pattern","Peer pressure, Calibration pressure, bad WLB",nil
+278,fast paced if you're into that strong culture--everyone is very approachable great benefits + healthcare,"""refocus"" toward the Metaverse which won't have a payoff for years (if at all) the moral quandary of working with facebook products",nil
+279,"-flexibility -no micromanaging, get your job done and you're good -People - smart smart smart people -Healthy balance between professionalism and normalcy -Work life balance -3 meals a day",-Communication from higher up will not always be delivered the right way but it has to be done this way because of media. They try their best.,nil
 280,Great perks and benefits... they have the best in the industry.,"Take a look at Meta's stocks... I blame that not just on the economy, but also Zuck/senior leaders lack of strategy. Recent mass layoffs and exodus of talent to to blindly over-hiring during the instability of a pandemic. Not to mention the constant hot water the product strategy ends up facing in media and politics. Not a company for the relaxed or faint of heart.",nil
 281,"Good pay, food, and culture",Need better management. Immigration process.,nil
-282,#NAME?,#NAME?,nil
+282,- all meals are provided on-campus/in-office - team is very accommodating and willing to help - generous PTO - room for growth in career + outside as well - wellness benefit can be used for other things besides Fitness reimbursement,- declining stock price - lots of ambiguity / make your own schedule (which can be a pro to some),nil
 283,"Excellent perks, health and wellness benefits, work life balance, compassionate people, impactful work.","Room for more business efficiencies (ie less redundant people managers, less subjective spending) and transparency from leadership.",nil
 284,"Diverse culture, great campus and wonderful perks!",There are no cons that I can think of.,nil
 285,Free food and there are some good people,"Toxic environment driven by a sense of false elitism. People in recruiting think they are better than they actually are, which is the furthest thing from the truth. This was the worst job ever. My colleagues would often talk bad about each other, including me, and it was very cliquey. It reminded me of middle school.",nil
@@ -346,7 +346,7 @@ Google's organization is now very structured and hierarchical. Facebook is havin
 289,"Insane amounts of care for employees between unlimited sick days, cheap but world class benefits, advisors, free meals on site, and tech disbursements","Everything moves slow here. While work life balance is incredibly reasonable and fair, expect to work after hours on personal work if you want to make sure you do not stagnate as a ""meta employee"" as opposed to being relevant in your industry as a whole long-term",nil
 290,Great place to learn and grow,Impact culture is not for everyone,nil
 291,Impact on billions of people,Always being in the news,nil
-292,- People. Some of the best in the industry - Lot to learn. Respect in the industry - Switch teams if the current one doesn't work out - Best compensation (before stock value nose-dived),#NAME?,nil
+292,- People. Some of the best in the industry - Lot to learn. Respect in the industry - Switch teams if the current one doesn't work out - Best compensation (before stock value nose-dived),- Mark is risking a lot for Metaverse. Reduce the risk associated - Dont expect WLB,nil
 293,Benefits. Move fast culture. Insane scale and learning opportunities,remote work is challenging. can be difficult to navigate the internal structure,nil
 294,"Flat organization structure, not a lot of politics",Hired too many people and now with the layoffs I'm afraid that original culture is gone for good.,nil
 295,IC driven; mostly standardized systems; move fast culture,A lot of churn recently,nil
@@ -354,122 +354,132 @@ Google's organization is now very structured and hierarchical. Facebook is havin
 297,"Work with modern technologies, interesting problem set","Lack of documentation, lack of communication, lack of direction",nil
 298,Lots of opportunities for gaining experience.,Too much red tape slows progress.,nil
 299,"Amazing benefits, extremely smart and collaborative colleagues, remote work",Operates like a startup so lots of swirl,nil
-300,Good salary. Good infra. People centric culture.,People are afraid to voice disagreement and it is very much a group think mentality,nil
-301,"empowering culture, humble and smart humans to work with",middle-level management leadership provides little to no direction on priorities and how org-projects level up to company-initiatives,nil
-302,"Good compensation. Facilities are good. Free food, shuttle and good environment.",High competition. People are running after PSC. Constant pressure to perform higer.,nil
-303,* nice benefits * opportunity to work on high impact project * very talent people,* metrics driven culture * less great WLB,nil
-304,High pay for sure. And very good perks.,Not much autonomy. The work does not feel satisfying.,nil
-305,#NAME?,#NAME?,nil
-306,"Good pay, benefits and perks, free food","Toxic culture based on performance reviews. They literally give you bonus points if you ""generate"" or ""feed"" work for other engineers. They don't value good work or elegant design or reliable software, instead they value # of bugs and issues fixed. Hence people write crappy software with lots of bugs and then either fix bugs or, more often, hire another engineer to rewrite the whole thing and cycle repeats. No wonder Metaverse didn't take off and they are laying off people.",nil
-307,Great benefits for its employees. I would say the best company I've worked for when it comes to how it treats their employees,"Nothing to say at the moment, great org",nil
-308,"Good pay, free food, free parking, some really great people, good work life balance, nice office,","I had the worst manager of my whole career and despite multiple chats with HR, nothing was done for months (manager was finally laid off). Prioritization and goals are very personality driven Employees can come across as entitled, huge focus in all hands meetings on benefits and time off instead of work Meta is the worst performing stock of the year- that says something about the company but also impacts performance Disjointed teams and poor collaboration, everything ends in an escalation",nil
-309,"Innovative concepts, brilliant colleagues, great benefits",Very uncertain decision making and a sense of thrash.,nil
-310,"Work environment, cultural, compensation, food, benefits","Leadership, politics, Leadership, PSC, Leadership",nil
-311,"Perks are great, but working from home is totally different than being in-office obviously, so difficult to say exactly how much it's worth it.",Job satisfaction isn't all that great.,nil
-312,"- More totally compensation as a golden handcuff, not much advantage anymore since the stock drop after ""Metaworse"".
-- Contractors can end up with no work to do - grab free money.","- So called ""bottom up"" culture is something you will find out a few months later for yourself of what it means actually. Hunger game to entertain lazy leads.
-- Stealing ideas, projects
-- Fake showing off in endless useless meetings
-- Remote worker will have to be flying here and there to meet the team in person to plan about a made up vision, where there's really not much thing to do. Gotta create things and faking it together.
-- Unethical burning out newly grads with no experience until the mentally breaking point.",nil
-313,Money is good for me,Lay off when I joined Meta in the 2nd month.,nil
-314,Some of the most exciting technology you will ever come across,"A toxic work culture that absolutely does not focus on belonging, positive work/life balance, authentic self, or positivity.",nil
-315,The culture encourages you to share your knowledge for success and you are able to work autonomous and as a team with the same goal in mind.,"There is Information overload at times, but having great leaders to help you focus on what's important helps.",nil
-316,"My engineering team is research adjacent, and we have a lot of creative freedom to solve our problems. Problems are always fresh and challenging, also have no production oriented deadlines and thus good work life balance (unlike the average team).","Stock price volatile. Depending on how ARVR takes to the market, there's really no lower bound to how low stock prices drop.",nil
-317,#NAME?,#NAME?,nil
-318,fast paced if you're into that strong culture--everyone is very approachable great benefits + healthcare,"""refocus"" toward the Metaverse which won't have a payoff for years (if at all) the moral quandary of working with facebook products",nil
-319,"-flexibility -no micromanaging, get your job done and you're good -People - smart smart smart people -Healthy balance between professionalism and normalcy -Work life balance -3 meals a day",#NAME?,nil
-320,"Sense of Community, support coming in, flexibility","Not structured, unorganized, no clear direction for the company",nil
-321,Fast moving Innovative and open cultural environment,Since fast moving not giving much attention or exploration for variety of solution,nil
-322,#NAME?,#NAME?,nil
-323,"Project was fun, people were nice, food was good",Job security was a bit concerning this year,nil
-324,Great people and you learn a lot of technical skills and have tons of autonomy,Leadership/Management needs to figure better ways of forecasting the future,nil
-325,Great company with great benefits,The company is facing some macro economic pains right now.,nil
-326,Smart colleagues great XFN partners.,Some people take themselves too seriously. Some things do not need to be so complicated…,nil
-327,Smart colleagues and good benefits,"Depending on team, may work longer hours",nil
-328,Some of the smartest people I've ever met work here.,"The research culture is toxic. They actively do not want research and have created policies and processes that are focused on preventing research leaks instead of addressing a toxic culture that doesn't listen to research findings. Beyond that, the performance system here is so toxic that it will forever impair this company from growing, improving, or changing.",nil
-329,"Great Salary, Benefits, Perks, Company campus and culture",Was laid off within first 3 weeks of working,nil
-330,Great company with great benefits,The company is facing some macro economic pains right now.,nil
-331,Smart colleagues great XFN partners.,Some people take themselves too seriously. Some things do not need to be so complicated…,nil
-332,Smart colleagues and good benefits,"Depending on team, may work longer hours",nil
-333,Some of the smartest people I've ever met work here.,"The research culture is toxic. They actively do not want research and have created policies and processes that are focused on preventing research leaks instead of addressing a toxic culture that doesn't listen to research findings. Beyond that, the performance system here is so toxic that it will forever impair this company from growing, improving, or changing.",nil
-334,"Great Salary, Benefits, Perks, Company campus and culture",Was laid off within first 3 weeks of working,nil
-335,Great place to learn and grow,Impact culture is not for everyone,nil
-336,Impact on billions of people,Always being in the news,nil
-337,- People. Some of the best in the industry - Lot to learn. Respect in the industry - Switch teams if the current one doesn't work out - Best compensation (before stock value nose-dived),#NAME?,nil
-338,Benefits. Move fast culture. Insane scale and learning opportunities,remote work is challenging. can be difficult to navigate the internal structure,nil
-339,"Flat organization structure, not a lot of politics",Hired too many people and now with the layoffs I'm afraid that original culture is gone for good.,nil
-340,"Flexibility, great problems to solve, amazing people","Changing priorities, large company with bureaucracy",nil
-341,#NAME?,Lots of stress if you're on a high profile project. Performance reviews are nightmares. Company direction is getting awkward. Too much external politics in the office.,nil
-342,Collaborative team Free onsite food Relocation paid for and paid for apartment for duration of internship,Onboarding was challenging (too much recruiter overturn and lack of communication between intern and upper management),nil
-343,- Good internal tooling - Flexibility in moving teams - Career growth if you're straight out of college - You get to work with smart folks,"- Wlb can get skewed due to PSC/Performance culture - Engineering culture can get a bit political where you find yourself doing more alignment, signal boosting, etc. vs doing actual engineering (but this is team/org dependent as well)",nil
-344,"good company, with really smart peers.","hectic work, and little work life balance",nil
-345,"Great benefits, recruiting leaders care about their team and very family friendly",Huge disconnect between leadership and middle management,nil
-346,Great company to work at.,Bottom up culture sometime hurts,nil
-347,Culture and visibility are great,Need to learn to balance Work and life.,nil
-348,"Great environment, pay, and benefits package.",Management isn't held accountable and aren't around during any work that's being done.,nil
-349,"Perks, Salary, Offices, food are top notch. Work is intresting in some roles.","Toxic culture due to PSC, mangers are not that supportive.",nil
-350,- Good internal tooling - Flexibility in moving teams - Career growth if you're straight out of college - You get to work with smart folks,"- Wlb can get skewed due to PSC/Performance culture - Engineering culture can get a bit political where you find yourself doing more alignment, signal boosting, etc. vs doing actual engineering (but this is team/org dependent as well)",nil
-351,"Great benefits, recruiting leaders care about their team and very family friendly",Huge disconnect between leadership and middle management,nil
-352,Great company to work at.,Bottom up culture sometime hurts,nil
-353,Culture and visibility are great,Need to learn to balance Work and life.,nil
-354,"Great environment, pay, and benefits package.",Management isn't held accountable and aren't around during any work that's being done.,nil
-355,"Perks, Salary, Offices, food are top notch. Work is intresting in some roles.","Toxic culture due to PSC, mangers are not that supportive.",nil
-356,Perks in general are good,"Reorgs and team changes too often, then layoff",nil
-357,"Great benefits, rewarding work, best people",Lack of transparency from C level,nil
-358,"Meta hired a bunch of excellent engineers, smart people, highly motivated, professional. The company values your skills and work(and setting high expectations on you impact)",As of now did not find any cons yet,nil
-359,#NAME?,#NAME?,nil
-360,"- Pay, people, perks, experience, tech it's all amazing.","- Leadership is and always will be the company's undoing, and you have no control over it.",nil
-361,Benefit and perks Food and travel,Sinking ship with Metaverse and poor leadership,nil
-362,I enjoyed learning every day,Too many XFN to manage and too many ad hoc tasks everyday,nil
-363,"good culture, smart coworkers, good pay","bad work-life balance, no stability, continuous org pivots",nil
-364,Opportunity to work with world-class people on interesting topics.,Engineering culture is not as strong as some people may be used to from other places and tools are a bit half-baked.,nil
-365,Perks Great peers Supportive managers,Messy tech stack Head in the sand pattern,nil
-366,"Some of the smartest, most capable people I've worked with. Problem space aligned with my interest areas (AI)","Constant reorgs, playing messenger with XFN, and producing communication artifacts for other teams make it impossible to get proper product IC work done",nil
-367,Good benefits even after cost cut,Have to consider a lot of dimensions of work,nil
-368,work with super intelligent people pay is amazing and the commission is as well,constantly changing environment and role hard to keep up at times,nil
-369,"Salary, not much else unfortunately","Work Life Balance, Colleague Interactions",nil
-370,"Good place to work, takes care of employees and great work-life balance.","As an analyst, if you are in teams that don't focus on technical projects that call for advanced skillsets (e.g., ML) you won't have much opportunity to learn.",nil
-371,"- tremendous amount of flexibility with location, schedule - inclusive & collaborative culture - great WLB - amazing company perks & benefits (e.g., health insurance, 2 choice days per year in addition to PTO (same as PTO basically), choice budget that can be used for wellness expense, family care expense, pet care expense) - People are fun, smart, supportive and respectful.",This is the best place I've worked for thus far.,nil
-372,The food was good The co-workers were nice,The work place was not good The management is always at your head,nil
-373,"Great benefits, great pay, nice culture","Bad business decisions, lack of streamlined data documentation or tables",nil
-374,Everyone has the opportunity to lead,"There is a lack of clear decision making, and only one person dictating the direction of the company",nil
-375,"Best People, benefits, work culture and cool tech","fast evolving projects, volatility, no clear direction from leadership",nil
-376,good benefits I like Mark Zuckerberg Team mobility Team mobility - Choose any team once you are hired,Hard to change teams in the first year,nil
-377,"Amazing team, pay, benefits, culture and work life balance!",I do not have any Cons at this time.,nil
-378,Perks and culture and campus is great,very competitive and high expectations,nil
-379,"Good salary, nice benefits (but fewer perks over time), good culture if you're on the right team.","Can be chaotic at times, feeling like a ""giant startup"" — leadership doesn't make many decisions, leading to disorganization.",nil
-380,large company with lots of different opportunities and benefits,i was laid off during my training period,nil
-381,"good compensation, nice offices, quality food","not good work-life balance, always pressure",nil
-382,Good perks and nice pay,Bad management and strategy for the company,nil
-383,"Great pay, benefits, and undeserved intellectual cache.",Bloated management which doesn't manage anything.,nil
-384,"pay high, learn quickly, well-known","competitive, move too fast, no work life balance,",nil
-385,Excellent health and wellness benefits Ability to work from home,Low hiring bar Prioritizes employee sentiment over business needs,nil
-386,Learnings and Experience - The challenges and problems you get to encounter are unique and will make your evolve better.,"Meta has a bottom-tops culture. While some may find this interesting, some may struggle with alignment and direction",nil
-387,Some of the kindest and self driven people to work with! Benefits are amazing if you’re not entitled!! Competitive wages for the role and industry.,"The original values and culture are no longer sustainable and scalable. We aren’t solving root causes and are vastly over staffed because of this. Refocusing on structure, process creation and implementation, reducing amount of “free reign” and long term planning at a team level vs short term sprint planning, could lead to more value add long term, better headcount planning and scaling, reduce financial stress during economic uncertainty and empower teams to create efficiencies vs looking for the next shiny object.",nil
-388,Great benefits. Smart people. Some good people.,"What would you do if your job offer pay wasn't what they actually paid you after starting? This happened and came with an ""oh, we made a mistake."" Company doesn't value diversity. They offer no growth or learning opportunities. Can be very military in some parts of the company...top down orders with little regard for what's actually needed. Chaotic. Lots of people doing mediocre work, but patting each other on the back to get performance bonuses.",nil
-389,#NAME?,#NAME?,nil
-390,Great colleagues and great leadership,Unclear if Metaverse bets will pay off,nil
-391,Culture Forward Outstanding Perks and Benefits High Autonomy & Empowerment Challenging/Rewarding Work,Ambiguity is an Understatement Lack of Standardization can be Messy Challenging Cross-functional Silos Advancement Opportunities Limited,nil
-392,Great place to work overall with good learning.,Troubling times going on with due to some poor decision + poor macroeconomic environment.,nil
-393,Benificial salary Beautifull enviroment Adapting enviroment Multiple opportunities,so far from my house so i had to shift it.,nil
-394,Incredibly smart people and opportunities to be on the cutting edge of content policy development,"Crisis driven, escalations heavy work",nil
-395,Great teammates. All researchers are world-class experts in each field.,Leadership. They don't know how to utilize these good resources and make actual money.,nil
-396,Great culture with endless room for growth.,Your ability to progress is heavily based on the influence and support you garner.,nil
-397,Amazing work-life balance. Really enjoyed my team,Metaverse seems to be killing the company.,nil
-398,good company to work. good salary,less work life balance but more benefits,nil
-399,"cool team, and a lot of offsites and benefits","a lot of work, hours bad",nil
-400,"good company, with really smart peers.","hectic work, and little work life balance",nil
-401,"Great benefits, recruiting leaders care about their team and very family friendly",Huge disconnect between leadership and middle management,nil
-402,Lot of things to learn,"Stressful sometimes, excessive workload, not family oriented",nil
-403,Great company to work at.,Bottom up culture sometime hurts,nil
-404,Culture and visibility are great,Need to learn to balance Work and life.,nil
-405,"Great environment, pay, and benefits package.",Management isn't held accountable and aren't around during any work that's being done.,nil
-406,Perks in general are good,"Reorgs and team changes too often, then layoff",nil
-407,Pay and culture is great.,Layoffs without proper assessment of ones performance,nil
-408,"Great benefits, rewarding work, best people",Lack of transparency from C level,nil
-409,great benefits and pay for amount of work,"sinking ship, Meta knows it's in a downward spiral",nil
-410,#NAME?,#NAME?,nil
+300,I think it has the best work environment,No major problems but sometimes I feel less work life balance,nil
+301,"Fast promotions for junior engineers, good benefits, good talent at the company.","High performance expectations, moderate-to-low WLB.",nil
+302,Meta is only great for engineers,Not respecting non-engineering culture; Massive wasting resources on no-value project; Over hired by at least 50%;,nil
+303,"Salary, company culture, pay, benefits","return offers rescinded, difficult economical times",nil
+304,"Food, snacks, amenities are amazing","Work isnt impactful, a lot of the stuff done was very mundane",nil
+305,"Great benefits, competitive salary, lots of opportunities for growth","Poor direction, lack of team motivation. Ratings and Sales quotas are completely gamified",nil
+306,company benefits are very good for covering family care,people work in a nonefficiency way,nil
+307,Impact is huge A lot of smart people around you to learn from Work life balance is great,"Everyone are optimizing for their yearly review and salary, this is the culture. The mission is not to bring people together or at least nobody cares about it. It’s about getting the best performance rating and hacking your way around it.",nil
+308,Work-life balance Autonomy Great community to share ideas and experiences Opportunities to collab even in a remote setting,None that come to mind,nil
+309,"Work environment, cultural, compensation, food, benefits","Leadership, politics, Leadership, PSC, Leadership",nil
+310,"Food, pay, people, benefits, just about everything","Layoffs, Mark Zuckerburg, the media",nil
+311,good to work for for the time being,not anything I could think of,nil
+312,"- You get to work with really smart, kind, hardworking people on products that impact the world. - Great perks, delicious in office food and a fun work culture that feels like an extension of college. Great for extroverts and people looking to make friends at work.","- Stock price constantly fluctuating - Metaverse bets, uncertainty regarding the company's future",nil
+313,Benefits Comp Autonomy Work Life Balance,"Leadership has to sugar coat everything due to leaks, pressure from external shareholders, and they also have to give themselves an ""out"" in the event decision making leads to poor business results.",nil
+314,"Good place to work, takes care of employees and great work-life balance.","As an analyst, if you are in teams that don't focus on technical projects that call for advanced skillsets (e.g., ML) you won't have much opportunity to learn.",nil
+315,* Flexible hybrid work * Great comp * Everyone is very smart and hardworking,"* Difficult to enact large-scale change, lots of focus on small optimizations * Some groups are more willing to accept DS help than others",nil
+316,- hard and interesting problems - very talented people around you,- PSC driven mentality making it annoying to do long term meaningful work sometimes,nil
+317,"- tremendous amount of flexibility with location, schedule - inclusive & collaborative culture - great WLB - amazing company perks & benefits (e.g., health insurance, 2 choice days per year in addition to PTO (same as PTO basically), choice budget that can be used for wellness expense, family care expense, pet care expense) - People are fun, smart, supportive and respectful.",This is the best place I've worked for thus far.,nil
+318,The food was good The co-workers were nice,The work place was not good The management is always at your head,nil
+319,"Great benefits, great pay, nice culture","Bad business decisions, lack of streamlined data documentation or tables",nil
+320,* Flexible hybrid work * Great comp * Everyone is very smart and hardworking,"* Difficult to enact large-scale change, lots of focus on small optimizations * Some groups are more willing to accept DS help than others",nil
+321,"Good place to work, takes care of employees and great work-life balance.","As an analyst, if you are in teams that don't focus on technical projects that call for advanced skillsets (e.g., ML) you won't have much opportunity to learn.",nil
+322,- hard and interesting problems - very talented people around you,- PSC driven mentality making it annoying to do long term meaningful work sometimes,nil
+323,"- tremendous amount of flexibility with location, schedule - inclusive & collaborative culture - great WLB - amazing company perks & benefits (e.g., health insurance, 2 choice days per year in addition to PTO (same as PTO basically), choice budget that can be used for wellness expense, family care expense, pet care expense) - People are fun, smart, supportive and respectful.",This is the best place I've worked for thus far.,nil
+324,The food was good The co-workers were nice,The work place was not good The management is always at your head,nil
+325,"Great benefits, great pay, nice culture","Bad business decisions, lack of streamlined data documentation or tables",nil
+326,"Best People, benefits, work culture and cool tech","fast evolving projects, volatility, no clear direction from leadership",nil
+327,good benefits I like Mark Zuckerberg Team mobility Team mobility - Choose any team once you are hired,Hard to change teams in the first year,nil
+328,"Amazing team, pay, benefits, culture and work life balance!",I do not have any Cons at this time.,nil
+329,Perks and culture and campus is great,very competitive and high expectations,nil
+330,"Good benefits, clear career growth path.","Poor work life balance, rushing environment.",nil
+331,"- Good pay - Good benefits (insurance, convenience service)","What was once a bottom-up engineer driven company is now incredible top down and bureaucratic. It's expected at this scale, but as recently as 3 years ago I felt like engineers played a huge part in driving team/org direction. The org leads now can't decide what they want and don't consult engineering for scoping estimates, leading to tons of churn and frustration. Overall there's been a huge shift to monetization focused efforts, but even with that the leads will panic and pivot frequently, leading to a really difficult culture to actually get anything shipped",nil
+332,-High compensation -Challenge you to do your best work -High performance culture,-Chaotic with constant change -Burn out is real -Too much bureaucracy,nil
+333,Pay is the best. Free food. Great benefits overall.,No opportunity for growth once you hit IC4. Extremely metric focused.,nil
+334,Top notch benefits Open culture WLB,Bad management Bottom up culture leads to lots of scope clashes,nil
+335,"Benefits, Team, workplace perks, office locations",culture took a dip after company cuts,nil
+336,large company with lots of different opportunities and benefits,i was laid off during my training period,nil
+337,"Great benefits, extremely supportive people, lots of resources for training/learning",Team matching process is not very well structured,nil
+338,"good compensation, nice offices, quality food","not good work-life balance, always pressure",nil
+339,Good perks and nice pay,Bad management and strategy for the company,nil
+340,Good perks and nice pay,Bad management and strategy for the company,nil
+341,"pay high, learn quickly, well-known","competitive, move too fast, no work life balance,",nil
+342,Learnings and Experience - The challenges and problems you get to encounter are unique and will make your evolve better.,"Meta has a bottom-tops culture. While some may find this interesting, some may struggle with alignment and direction",nil
+343,Some of the kindest and self driven people to work with! Benefits are amazing if you’re not entitled!! Competitive wages for the role and industry.,"The original values and culture are no longer sustainable and scalable. We aren’t solving root causes and are vastly over staffed because of this. Refocusing on structure, process creation and implementation, reducing amount of “free reign” and long term planning at a team level vs short term sprint planning, could lead to more value add long term, better headcount planning and scaling, reduce financial stress during economic uncertainty and empower teams to create efficiencies vs looking for the next shiny object.",nil
+344,"Culture, team, and benefits are amazing","Such a big company, and with working in the recruitment world, you have to stay on top of the media coverage to know what to say to candidates when they bring it up",nil
+345,Pay Benefits Smart people Interesting products,"Misaligned goals across teams People/managers too PSC focused to get promoted Leads to unnecessary, pointless work Promotion is political",nil
+346,"Flexibility, great problems to solve, amazing people","Changing priorities, large company with bureaucracy",nil
+347,- smart people all around - pretty much some of the highest tech you can see in the field - perks - salary,Lots of stress if you're on a high profile project. Performance reviews are nightmares. Company direction is getting awkward. Too much external politics in the office.,nil
+348,Collaborative team Free onsite food Relocation paid for and paid for apartment for duration of internship,Onboarding was challenging (too much recruiter overturn and lack of communication between intern and upper management),nil
+349,"good company, with really smart peers.","hectic work, and little work life balance",nil
+350,* nice benefits * opportunity to work on high impact project * very talent people,* metrics driven culture * less great WLB,nil
+351,High pay for sure. And very good perks.,Not much autonomy. The work does not feel satisfying.,nil
+352,- Tons of PTO - Supportive Team,"- For a gaming partnerships department, not many people on the team are gamers.",nil
+353,Great benefits for its employees. I would say the best company I've worked for when it comes to how it treats their employees,"Nothing to say at the moment, great org",nil
+354,"Innovative concepts, brilliant colleagues, great benefits",Very uncertain decision making and a sense of thrash.,nil
+355,- Great benefits - Awesome projects - Huge independence,- Lack of respect for leadership - Very burocratic - Bad PR,nil
+356,"Benefits, compensation, great people to work with",Too many leaders for few people actually doing the work,nil
+357,"Perks and benefits are good, with a competitive salary Work is straight forward with not a lot of micromanagement",Some processes are redundant and you don't always know the direction the company is going Performance review cycles,nil
+358,Meta has the best benefits. Most Talented HR Team and the best resources. Everything you need they have,"If you like to be more hands-on and get more into the weeds it can be difficult to identify where you can be most impactful. Most of the teams are pretty self sufficient so you find yourself in search of meaningful purpose with your team, which was difficult during COVID. Busiest time is during PSC for sure",nil
+359,"-good benefits including $3000/year wellness benefits, $260/month commuter benefit, free food, gym, good insurance
+-supportive managers and colleagues are generally nice to work with
+-easy to transfer between teams","-unsure if the company direction is good. Are we really just going to copy TikTok? Is Metaverse really the future? 
+-moves very slowly for certain teams. A lot of pushback from legal and policy. Always need a lot of 'alignment' from a bunch of people (too many people)
+-the data scientist role is restricted to mostly analytics. we don't build models or do data engineering work since every role is specialized. As a result I haven't learnt anything new ever since I started working at Meta
+-frequent re-orgs",nil
+360,- Great benefits - Awesome projects - Huge independence,- Lack of respect for leadership - Very burocratic - Bad PR,nil
+361,"Benefits, compensation, great people to work with",Too many leaders for few people actually doing the work,nil
+362,"Perks and benefits are good, with a competitive salary Work is straight forward with not a lot of micromanagement",Some processes are redundant and you don't always know the direction the company is going Performance review cycles,nil
+363,Meta has the best benefits. Most Talented HR Team and the best resources. Everything you need they have,"If you like to be more hands-on and get more into the weeds it can be difficult to identify where you can be most impactful. Most of the teams are pretty self sufficient so you find yourself in search of meaningful purpose with your team, which was difficult during COVID. Busiest time is during PSC for sure",nil
+364,"-good benefits including $3000/year wellness benefits, $260/month commuter benefit, free food, gym, good insurance
+-supportive managers and colleagues are generally nice to work with
+-easy to transfer between teams","-unsure if the company direction is good. Are we really just going to copy TikTok? Is Metaverse really the future? 
+-moves very slowly for certain teams. A lot of pushback from legal and policy. Always need a lot of 'alignment' from a bunch of people (too many people)
+-the data scientist role is restricted to mostly analytics. we don't build models or do data engineering work since every role is specialized. As a result I haven't learnt anything new ever since I started working at Meta
+-frequent re-orgs",nil
+365,"Food, pay, people, benefits, just about everything","Layoffs, Mark Zuckerburg, the media",nil
+366,good to work for for the time being,not anything I could think of,nil
+367,"- You get to work with really smart, kind, hardworking people on products that impact the world. - Great perks, delicious in office food and a fun work culture that feels like an extension of college. Great for extroverts and people looking to make friends at work.","- Stock price constantly fluctuating - Metaverse bets, uncertainty regarding the company's future",nil
+368,Benefits Comp Autonomy Work Life Balance,"Leadership has to sugar coat everything due to leaks, pressure from external shareholders, and they also have to give themselves an ""out"" in the event decision making leads to poor business results.",nil
+369,* Flexible hybrid work * Great comp * Everyone is very smart and hardworking,"* Difficult to enact large-scale change, lots of focus on small optimizations * Some groups are more willing to accept DS help than others",nil
+370,"Best People, benefits, work culture and cool tech","fast evolving projects, volatility, no clear direction from leadership",nil
+371,good benefits I like Mark Zuckerberg Team mobility Team mobility - Choose any team once you are hired,Hard to change teams in the first year,nil
+372,"Amazing team, pay, benefits, culture and work life balance!",I do not have any Cons at this time.,nil
+373,Perks and culture and campus is great,very competitive and high expectations,nil
+374,"Good salary, nice benefits (but fewer perks over time), good culture if you're on the right team.","Can be chaotic at times, feeling like a ""giant startup"" — leadership doesn't make many decisions, leading to disorganization.",nil
+375,Great colleagues that I learnt a lot from,"too many understanding work, not feel valued",nil
+376,"Good benefits, clear career growth path.","Poor work life balance, rushing environment.",nil
+377,"Colleagues are the brightest, most motivated and most wonderful to work with",- Leadership lacks direction - Company strategy lacks rigor - Business processes implementation slows the company down,nil
+378,Pay is the best. Free food. Great benefits overall.,No opportunity for growth once you hit IC4. Extremely metric focused.,nil
+379,Top notch benefits Open culture WLB,Bad management Bottom up culture leads to lots of scope clashes,nil
+380,"Good benefits, clear career growth path.","Poor work life balance, rushing environment.",nil
+381,"Colleagues are the brightest, most motivated and most wonderful to work with",- Leadership lacks direction - Company strategy lacks rigor - Business processes implementation slows the company down,nil
+382,Pay is the best. Free food. Great benefits overall.,No opportunity for growth once you hit IC4. Extremely metric focused.,nil
+383,Top notch benefits Open culture WLB,Bad management Bottom up culture leads to lots of scope clashes,nil
+384,"Benefits, Team, workplace perks, office locations",culture took a dip after company cuts,nil
+385,large company with lots of different opportunities and benefits,i was laid off during my training period,nil
+386,"good compensation, nice offices, quality food","not good work-life balance, always pressure",nil
+387,Good perks and nice pay,Bad management and strategy for the company,nil
+388,"Great pay, benefits, and undeserved intellectual cache.",Bloated management which doesn't manage anything.,nil
+389,"pay high, learn quickly, well-known","competitive, move too fast, no work life balance,",nil
+390,- free food i guess,- was booted before any chance to join a team,nil
+391,"Culture, team, and benefits are amazing","Such a big company, and with working in the recruitment world, you have to stay on top of the media coverage to know what to say to candidates when they bring it up",nil
+392,"Flexibility, great problems to solve, amazing people","Changing priorities, large company with bureaucracy",nil
+393,- smart people all around - pretty much some of the highest tech you can see in the field - perks - salary,Lots of stress if you're on a high profile project. Performance reviews are nightmares. Company direction is getting awkward. Too much external politics in the office.,nil
+394,Collaborative team Free onsite food Relocation paid for and paid for apartment for duration of internship,Onboarding was challenging (too much recruiter overturn and lack of communication between intern and upper management),nil
+395,"good company, with really smart peers.","hectic work, and little work life balance",nil
+396,"Great benefits, recruiting leaders care about their team and very family friendly",Huge disconnect between leadership and middle management,nil
+397,Lot of things to learn,"Stressful sometimes, excessive workload, not family oriented",nil
+398,Great company to work at.,Bottom up culture sometime hurts,nil
+399,Culture and visibility are great,Need to learn to balance Work and life.,nil
+400,"Smart people, good compensation, overall a positive experience.","Over-emphasis on performance metrics that do not make sense, like the number of diffs created instead of the quality and content of diffs created.",nil
+401,It is very collaborative and friendly,it ha no cons expect you need to work hard!,nil
+402,"- great benefits - great culture (very collaborative, open, transparent)",- stock depreciation over 2022,nil
+403,Culture and benefits are the best here,Recent lay offs can be stressful.,nil
+404,Smart people Passionate people Cool tech Great benefits,Leadership unsure of company vision Losing a lot of profit on the Metaverse,nil
+405,"research environment is very good, top researchers",I am not sure if Meta will keep the research team in the future,nil
+406,"Good infrastructure, lots of tools to allow productivity. Great people",The company has a bad reputation,nil
+407,"+relatively flat organization (values everyone's perspectives and encourages hard conversations, radical candor regardless of level or tenure) 
++ People are generally nice (good combination of high smarts and high emotional intelligence) 
++ strong culture of DE&I (you really feel the management is trying hard with new initiatives, programs, communities to make everyone feel included, safe, fair, respected) 
++ Great support for making strong people managers (we have a pulse survey to check sentiment of the employees and our manager scores are always really high) 
++ Work/Life balance is totally(100%) achievable. It's really up to you and your manager and your team culture. Work time is flexible as long as you have your goals set. 
++ Great benefits",- Not much that I can think of. (I worked in 4 other international(mostly american) companies in the past and by far Meta is the best),nil
+408,"great people, hope it succeeds",layoffs sucked for the company,nil
+409,I enjoyed my time there,I was actually laid off,nil
+410,- Create big impact - Surrounded by really talented people - Great compensation - Great work culture,- Long process to ship products - Big / corporate aspects,nil
 411,Benefits are well above other tech companies,Ambiguity in role doesn’t help when time for performance review,nil
 412,"The org is still developing how they want to manage their data center portfolio, this allows for opportunities to impact and provide change.",The management at each site differs greatly.,nil
 413,benefits training great management great work environment,leadership who is blind to the market and business sectors theyve cut off revently. The “metaverse” is a terrible bet,nil
@@ -495,62 +505,85 @@ The weekly Q&A turned into a CCP-grade propaganda show where they ignore employe
 
 Higher management does not want to hear about changes or anything innovative. Middle management shields them from anything that’s different from what’s been reported before on the same topic. There is no way this is a successful path. Toxic environment through and through.",nil
 419,Great total compensation. Great experience for future roles.,"Its a slog, but its very rewarding work. The company takes financial bets that don't always pay off.",nil
-420,Good company still founder led,Macro economy headwinds is affecting biz,nil
+420,amazing benefits and perks great people to work with awesome company culture and work environment,change is the only thing that is constant,nil
 421,"Love it, best job best people",None really a lot of growth,nil
-422,#NAME?,#NAME?,nil
+422,- Great access to resources - Good mentorship opportunities,- Did not communicate internship deadlines well.,nil
 423,"Nice atmosphere , Move fast, well-paid",No returen offer and the company is hiring freeze,nil
-424,Nice and smart people. Good benefits.,The intranet is very overwhelming,nil
-425,Great benefits and good pay.,Very stressful and high intensity workplace.,nil
-426,Good benefit and people and tech,Too fast doesnt care much about the details,nil
-427,"Awesome perks and comp. Bottoms up culture, tons of amazing resources.",So big it's tough to navigate building partnerships.,nil
-428,"Great benefits and perks, smart people, overall positive company culture",Has transitioned to being very top down,nil
-429,Free food and there are some good people,"Toxic environment driven by a sense of false elitism. People in recruiting think they are better than they actually are, which is the furthest thing from the truth. This was the worst job ever. My colleagues would often talk bad about each other, including me, and it was very cliquey. It reminded me of middle school.",nil
-430,Great benefits and good pay.,Very stressful and high intensity workplace.,nil
-431,Good benefit and people and tech,Too fast doesnt care much about the details,nil
-432,"Great benefits and perks, smart people, overall positive company culture",Has transitioned to being very top down,nil
-433,"Awesome perks and comp. Bottoms up culture, tons of amazing resources.",So big it's tough to navigate building partnerships.,nil
-434,Free food and there are some good people,"Toxic environment driven by a sense of false elitism. People in recruiting think they are better than they actually are, which is the furthest thing from the truth. This was the worst job ever. My colleagues would often talk bad about each other, including me, and it was very cliquey. It reminded me of middle school.",nil
-435,Pay and benefits are great.,"Lots of pings make it difficult to escape work. There are offices in lots of time zones, so early morning/late evening meetings are very common.",nil
-436,"nice food, gym, good company benefits","large workload, move very fast",nil
-437,"Incredible engineers, some of the smartest people out there
-Benefits are top notch","Management in AR pillar is bad.
-Horrible work life balance
-Extremely high expectations from senior ICs plus very little support.
-Mixed messaging from management, HUGE pivots every 3 months in average, a lot of bureaucracy and insufficient tooling.
-""Impact culture"" and ""ownership"" are handled in a way that makes collaboration much harder than it needs to be.
-They are clearly managing people out at this point.",nil
-438,Extremely smart and fun coworkers,#NAME?,nil
-439,"food, great coworkers, great location","wlb, messy roadmap, waste energy on non-tech things",nil
-440,Great teams and very talented staff.,"Very large company, massive layoffs",nil
-441,Engaging work Inclusive work culture Great work life balance Autonomy Outstanding benefits & perks Compensation Career progression,"Not much - however performance cycles are yearly, so it takes time to grow here.",nil
+424,Good company still founder led,Macro economy headwinds is affecting biz,nil
+425,Nice and smart people. Good benefits.,The intranet is very overwhelming,nil
+426,Great benefits and good pay.,Very stressful and high intensity workplace.,nil
+427,Good benefit and people and tech,Too fast doesnt care much about the details,nil
+428,"Awesome perks and comp. Bottoms up culture, tons of amazing resources.",So big it's tough to navigate building partnerships.,nil
+429,"Great benefits and perks, smart people, overall positive company culture",Has transitioned to being very top down,nil
+430,You will learn a lot,Long work hours and things have been stressful with the recent layoffs,nil
+431,"Great people, and access learning and resources.","Culture has gone through change given the size of the company, and the ability to make quick decisions isnt what it used to be.",nil
+432,Amazing benefits and pay and opportunity for growth,None that I can say,nil
+433,"Amazingly talented people, many opportunities for growth, and strong company culture.","High intensity, work-life balance can be a challenge",nil
+434,Good pay and great employee benefits,Metaverse doesn't seem gonna come to life in the short term..,nil
+435,- Great benefits of all kinds - Great work life balance - Open culture,- Sudden layoff - Tech stack was off with industry,nil
+436,"The best people, impactful projects, purpose driven work.",Fast-pace leads to lack of communication and duplicate work.,nil
+437,"Benefits are the best I've ever seen. In office amenities are awesome - free food, tech, etc.",team relationships feels distant and fake,nil
+438,"- Pay (when the share price is up)
+- Smart people to work with
+- Lots of flexibility to move between teams if you get bored or want to try something new","- Company is spread too thin, too many projects, not enough focus
+- Too much copying of competitor's products
+- Incentivized to write garbage code",nil
+439,High payment and perks and bonus,Intense working expectation Bad leadership,nil
+440,fast learning treat employee well,weak leadership Lack of diversity,nil
+441,Great people and transparent leadership,"No cons, love working for this company",nil
 442,good working environment at meta,may be laid off at current stage,nil
-443,pay benefits food office are good,metaverse has no future ceo is clueless,nil
-444,"Benefits, perks, people, projects and work life balance",Uncertainty. Frequent Reorgs. That’s all.,nil
-445,"Leadership, transparency, autonomy, culture, people, benefits, work-life balance","Navigating the financial challenges of building the Metaverse, but confident in our long term vision",nil
-446,fast learning treat employee well,weak leadership Lack of diversity,nil
-447,Great people and transparent leadership,"No cons, love working for this company",nil
-448,great learning environment for entry into marketing,corporate politics - red tape - diversity in hiring is more lip service,nil
-449,"Great perks, good development culture",Cog in the machine... Work culture is competitive,nil
-450,Great teammates. All researchers are world-class experts in each field.,Leadership. They don't know how to utilize these good resources and make actual money.,nil
-451,Great culture with endless room for growth.,Your ability to progress is heavily based on the influence and support you garner.,nil
-452,Amazing work-life balance. Really enjoyed my team,Metaverse seems to be killing the company.,nil
-453,good company to work. good salary,less work life balance but more benefits,nil
-454,"Smart people, good compensation, overall a positive experience.","Over-emphasis on performance metrics that do not make sense, like the number of diffs created instead of the quality and content of diffs created.",nil
-455,#NAME?,#NAME?,nil
-456,Culture and benefits are the best here,Recent lay offs can be stressful.,nil
-457,Great People & Company benefits,"Poor Senior Management Lack of Efficiency, Cost and Expense Management",nil
-458,"Great compensation, unlimited resources, nice perks","Toxic leftist culture. If you're white, conservative and Christian - be prepared to be constantly mocked, attacked, and discriminated against. Oh and if you're not vaccinated? You can't even enter the building.",nil
-459,It is very collaborative and friendly,it ha no cons expect you need to work hard!,nil
-460,1.) Great perks 2.) Amazing tech stack,1.) Work life balance is not good,nil
-461,The benefits are over the top,Home work balance is not always great,nil
-462,"Amazing peers and benefits, great work",Nothing much to say right now,nil
-463,"Food, snacks, amenities are amazing","Work isnt impactful, a lot of the stuff done was very mundane",nil
-464,Good pay. Respectful culture. Happy.,None they I can think of.,nil
-465,"Salary is better than competitors. Breakfast, Lunch, Dinner Office Shuttles Bikes Free EV charging Equipment Vending Machines Huge Campus Menlo Park Medical Dental Vision Benefits are best 4 months paternity 1 Million $ Term Insurance",Not that I can think of,nil
-466,"Great benefits, competitive salary, lots of opportunities for growth","Poor direction, lack of team motivation. Ratings and Sales quotas are completely gamified",nil
-467,company benefits are very good for covering family care,people work in a nonefficiency way,nil
-468,Impact is huge A lot of smart people around you to learn from Work life balance is great,"Everyone are optimizing for their yearly review and salary, this is the culture. The mission is not to bring people together or at least nobody cares about it. It’s about getting the best performance rating and hacking your way around it.",nil
-469,Company is in the midst of a big investment that will drive huge growth Teams are collaborative Work is exciting,Everything great in my opinion,nil
+443,great learning environment for entry into marketing,corporate politics - red tape - diversity in hiring is more lip service,nil
+444,managers and other people are usually respectful,stressful to chase aggressive goal,nil
+445,"- Flexible WFH options
+- Real sense of community - love that there is a place for everyone to feel comfortable
+- Free food! Free swag! Free EV charging!
+- Excellent health benefits
+- Commuter benefits are excellent. I've never taken the buses to campus but they are available
+- Value Work/Life balance
+
+- The work you do matters here
+- Challenging work to push you to the next step if you're up for it
+- All managers that I've worked with have been amazing. They are supportive, knowledgeable, and have your back
+- I've had nothing but an amazing experience so far and really love working here despite all the negative press we constantly receive",- Vague directives from upper senior directors and VP's. Sometimes their messaging is confusing,nil
+446,"Most interesting, cutting edge work. You get to work with the best & brightest in your field.","Difficult to keep a good work life balance, since the company moves so fast.",nil
+447,"Great perks, good development culture",Cog in the machine... Work culture is competitive,nil
+448,Lots of exposure to different projects and teams,Metaverse metaverse metaverse gets annoying,nil
+449,good for a flexible job,sometimes the deadlines might be stressful,nil
+450,"- Flexible WFH options
+- Real sense of community - love that there is a place for everyone to feel comfortable
+- Free food! Free swag! Free EV charging!
+- Excellent health benefits
+- Commuter benefits are excellent. I've never taken the buses to campus but they are available
+- Value Work/Life balance
+
+- The work you do matters here
+- Challenging work to push you to the next step if you're up for it
+- All managers that I've worked with have been amazing. They are supportive, knowledgeable, and have your back
+- I've had nothing but an amazing experience so far and really love working here despite all the negative press we constantly receive",- Vague directives from upper senior directors and VP's. Sometimes their messaging is confusing,nil
+451,"Most interesting, cutting edge work. You get to work with the best & brightest in your field.","Difficult to keep a good work life balance, since the company moves so fast.",nil
+452,"Great perks, good development culture",Cog in the machine... Work culture is competitive,nil
+453,Lots of exposure to different projects and teams,Metaverse metaverse metaverse gets annoying,nil
+454,good for a flexible job,sometimes the deadlines might be stressful,nil
+455,- Great work/life balance - Great co-workers - Great food - Great work environment - Great opportunities for career growth,Pandemic made everything yucky yucky,nil
+456,"Kept learning, worked with data at scale, great food",Learnings of tools are not as transferrable to other companies that don’t have the in-house tools,nil
+457,"Culture, fun environment, people, innovation","Overly matrixed and complex, redundancy in work - too many people doing the same thing.",nil
+458,Meta is only great for engineers,Not respecting non-engineering culture; Massive wasting resources on no-value project; Over hired by at least 50%;,nil
+459,1.) Great perks 2.) Amazing tech stack,1.) Work life balance is not good,nil
+460,"- great benefits - great culture (very collaborative, open, transparent)",- stock depreciation over 2022,nil
+461,"good wlb, smart and fun people","pretty low pay, below market with low stock",nil
+462,Culture and benefits are the best here,Recent lay offs can be stressful.,nil
+463,Smart people Passionate people Cool tech Great benefits,Leadership unsure of company vision Losing a lot of profit on the Metaverse,nil
+464,"research environment is very good, top researchers",I am not sure if Meta will keep the research team in the future,nil
+465,"Good infrastructure, lots of tools to allow productivity. Great people",The company has a bad reputation,nil
+466,"free 3 meals, gym, snacks etc. top compensation, top medical health plan etc.","move fast, not good for learning knowledge. high performance requirement, result in employee spending many time on redundant work for keep performance data looking good.",nil
+467,"+relatively flat organization (values everyone's perspectives and encourages hard conversations, radical candor regardless of level or tenure) 
++ People are generally nice (good combination of high smarts and high emotional intelligence) 
++ strong culture of DE&I (you really feel the management is trying hard with new initiatives, programs, communities to make everyone feel included, safe, fair, respected) 
++ Great support for making strong people managers (we have a pulse survey to check sentiment of the employees and our manager scores are always really high) 
++ Work/Life balance is totally(100%) achievable. It's really up to you and your manager and your team culture. Work time is flexible as long as you have your goals set. 
++ Great benefits",- Not much that I can think of. (I worked in 4 other international(mostly american) companies in the past and by far Meta is the best),nil
+468,"great people, hope it succeeds",layoffs sucked for the company,nil
+469,I enjoyed my time there,I was actually laid off,nil
 470,"pay, technology, resources, benefits, career progression",currently in a bit of a transitionary time with mixed signals,nil
 471,Lots of opportunity to grow,Pressure can be high depending on org to perform.,nil
 472,Some of the most exciting technology you will ever come across,"A toxic work culture that absolutely does not focus on belonging, positive work/life balance, authentic self, or positivity.",nil
@@ -558,26 +591,40 @@ They are clearly managing people out at this point.",nil
 474,lots of room to grow,very easy to get distracted,nil
 475,good salary and benefits for me,big workload for me too,nil
 476,"It was good stuff, and CEO was great.",The media makes it hard.,nil
-477,#NAME?,- There's been a lot of concerning changes in the company and the outlook doesn't look great oh no,nil
+477,- Pay is really good okay?,- There's been a lot of concerning changes in the company and the outlook doesn't look great oh no,nil
 478,"Stress-free & friendly environment, better opportunities to learn","Didn't got any yet, let's see",nil
-479,#NAME?,#NAME?,nil
-480,"Love it, best job best people",None really a lot of growth,nil
-481,#NAME?,#NAME?,nil
-482,"Nice atmosphere , Move fast, well-paid",No returen offer and the company is hiring freeze,nil
-483,Excellent Pay Excellent Benefits 401k $$$,"My chain of managers is really toxic They will not acknowledge my impact once they make up their mind about what I can deliver, even if it changes",nil
-484,"Great benefits and pay, you get to work with the best in the industry",Look at the recent news...,nil
-485,Nice and smart people. Good benefits.,The intranet is very overwhelming,nil
-486,Great benefits and good pay.,Very stressful and high intensity workplace.,nil
-487,Good benefit and people and tech,Too fast doesnt care much about the details,nil
-488,"Awesome perks and comp. Bottoms up culture, tons of amazing resources.",So big it's tough to navigate building partnerships.,nil
-489,"Great benefits and perks, smart people, overall positive company culture",Has transitioned to being very top down,nil
-490,Nice and smart people. Good benefits.,The intranet is very overwhelming,nil
-491,Great benefits and good pay.,Very stressful and high intensity workplace.,nil
-492,Good benefit and people and tech,Too fast doesnt care much about the details,nil
-493,"Great benefits and perks, smart people, overall positive company culture",Has transitioned to being very top down,nil
-494,"Awesome perks and comp. Bottoms up culture, tons of amazing resources.",So big it's tough to navigate building partnerships.,nil
-495,Good benefits and career opportunities,Work culture is negative. There are no good processes setup .,nil
-496,"Really care about people, and thus great benefits","Lots of politics, equity is in the crapper, and Metaverse is unknown.",nil
-497,Great benefit and wonderful culture.,Company is going downhill by overspending in Metaverse. Negative outlook,nil
-498,Good engineers and nice benefits,Stressful and too much emphasis on half-yearly reviews.,nil
-499,1. pay good 2. convenient internal tools,large-scale lay off towards new hires,nil
+479,- exposure to highly talented people - working on products at scale - compensation,- toxic performance culture incentivizes individual over collective success - constant organizational change creates unnecessary headwinds to teams ability to progress the product forward - poor executive leadership driven by ego and disconnection from reality,nil
+480,good salary and benefits for me,big workload for me too,nil
+481,"It was good stuff, and CEO was great.",The media makes it hard.,nil
+482,- Pay is really good okay?,- There's been a lot of concerning changes in the company and the outlook doesn't look great oh no,nil
+483,"Stress-free & friendly environment, better opportunities to learn","Didn't got any yet, let's see",nil
+484,- exposure to highly talented people - working on products at scale - compensation,- toxic performance culture incentivizes individual over collective success - constant organizational change creates unnecessary headwinds to teams ability to progress the product forward - poor executive leadership driven by ego and disconnection from reality,nil
+485,"Sense of Community, support coming in, flexibility","Not structured, unorganized, no clear direction for the company",nil
+486,Fast moving Innovative and open cultural environment,Since fast moving not giving much attention or exploration for variety of solution,nil
+487,-environment -location -technology -reputation -opportunities,-salary -team mates - bad conditions,nil
+488,Great people and you learn a lot of technical skills and have tons of autonomy,Leadership/Management needs to figure better ways of forecasting the future,nil
+489,Smart colleagues great XFN partners.,Some people take themselves too seriously. Some things do not need to be so complicated…,nil
+490,"Great benefits and perks, smart people, overall positive company culture",Has transitioned to being very top down,nil
+491,Good benefits and career opportunities,Work culture is negative. There are no good processes setup .,nil
+492,"Really care about people, and thus great benefits","Lots of politics, equity is in the crapper, and Metaverse is unknown.",nil
+493,Great benefit and wonderful culture.,Company is going downhill by overspending in Metaverse. Negative outlook,nil
+494,Good engineers and nice benefits,Stressful and too much emphasis on half-yearly reviews.,nil
+495,1. pay good 2. convenient internal tools,large-scale lay off towards new hires,nil
+496,"Good salary, Nice people and team",Company Leadership and short term impact culture,nil
+497,Pay and benefits are great.,"Lots of pings make it difficult to escape work. There are offices in lots of time zones, so early morning/late evening meetings are very common.",nil
+498,"Salary and benefits were great — though salary is not that great any more with the stock down $200/share.
+
+Some really great people who want to make the platform better and safer for the users.","So many people doing the same work across the company but since it’s a bottoms up culture no one is reigning in the chaos. Meta could do with A LOT less staff if they had any real leadership that required people to align and remove duplicative work.
+
+Your work is thrashed all the time because of lack of leadership and strategic thinking/planning. If you are lucky, half of what you do will make it to the finish line. This is a huge concern when going for your annual review because you are calibrated with others and depending on how your manager sells your work (or doesn’t) will really affect your career and progression.
+
+Most executives still prioritize “giving people voice” over addressing platform concerns and the negative impacts that the platforms can cause. They need to take issues more seriously.
+
+There are A LOT of bad managers that can derail your career. Going to HR is useless because they are there to support the manager and limit risk to Meta. I can’t tell you how many people I worked with that took paid mental health leave because of their bad manager. If you get a bad manager get out the team ASAP because it will take them at least 12 months to work them out once they have enough complaints and that is long enough for them to destroy your career.
+
+There is no way for you to dispute your review. Some of my colleagues received a poor review from their manager but the review included inaccurate or false information (they had documentation to prove it), but there is no formal process to dispute your review. A bad review could cost you your career or make it difficult for you to switch teams.
+
+Leadership is leaving left and right which should raise some red flags. Metaverse is a big bet that will take years to pay off (if at all). How many people want to live in a virtual world? No thanks, I prefer to live in reality. Yes, there are benefits like training surgeons to do surgery before they touch a human but has anyone heard Mark mention using the metaverse that way?
+
+Product managers are incentivized to get the products out the door, not to do the right thing.",nil
+499,"nice food, gym, good company benefits","large workload, move very fast",nil
