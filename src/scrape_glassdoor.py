@@ -1,12 +1,15 @@
 import asyncio
 import time
 
+
 import httpx
 import json
 import re
 from typing import Tuple, List, Dict
 from parsel import Selector
 import pandas as pd
+
+from src.main import reviews_to_scrape
 
 country_code = {
     "Argentina": 13,
@@ -34,8 +37,8 @@ country_code = {
     "Österreich": 11
 }
 
-#companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
 companies_to_scrape = ["meta"]
+# companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -55,26 +58,20 @@ pandas_glassdoor_reviews_dict = {
     "ratingNumber": [],
 }
 
-details_folder_prefix = "../dataset/details_dataset"
-review_folder_prefix = "../dataset/reviews_dataset"
-
-pages_to_scrape = 50
-
 
 # define async for review scrape
 async def scrape_glassdoor():
-    # company_payload = find_companies("ebay")
     for company in companies_to_scrape:
         print(f"Scraping {company}'s details from Glassdoor...")
-        company_payload = find_companies(company)
-        response = get_response(f"https://www.glassdoor.com/Overview/Working-at-"
-                                f"{company_payload['suggestion']}-EI_IE"
-                                f"{company_payload['id']}.htm")
-        glassdoor_details_payload = get_glassdoor_details_payload(company_payload, response)
+        glassdoor_company_payload = glassdoor_find_companies(company)
+        glassdoor_response = get_response(f"https://www.glassdoor.com/Overview/Working-at-"
+                                          f"{glassdoor_company_payload['suggestion']}-EI_IE"
+                                          f"{glassdoor_company_payload['id']}.htm")
+        glassdoor_details_payload = get_glassdoor_details_payload(glassdoor_company_payload, glassdoor_response)
         details_payload_to_pandas_dict(glassdoor_details_payload, pandas_glassdoor_details_dict)
         pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
 
-        glassdoor_reviews_payload = get_glassdoor_reviews(company_payload)
+        glassdoor_reviews_payload = get_glassdoor_reviews(glassdoor_company_payload)
 
         for key in pandas_glassdoor_reviews_dict:
             pandas_glassdoor_reviews_dict[key].clear()
@@ -132,7 +129,7 @@ def get_glassdoor_details_payload(company_payload, response):
     }
 
 
-def find_companies(query: str):
+def glassdoor_find_companies(query: str):
     """find company Glassdoor ID and name by query. e.g. "ebay" will return "eBay" with ID 7853"""
     result = httpx.get(
         url=f"https://www.glassdoor.com/searchsuggest/typeahead?numSuggestions=8&source=GD_V2&version=NEW&rf=full&fallback=token&input={query}",
@@ -171,13 +168,15 @@ def get_glassdoor_reviews(company_payload):
     reviews_payload = {
         "pros": [],
         "cons": [],
-        "ratingNumber": []
+        "rating_number": []
     }
 
     reviews = parse_reviews(first_page.text)
     total_pages = reviews["numberOfPages"]
 
     print(f"Total pages available to scrape for {company_payload['suggestion']}'s reviews: {total_pages}")
+
+    pages_to_scrape = reviews_to_scrape / 10
 
     if total_pages < pages_to_scrape:
         actual_pages_to_scrape = total_pages
@@ -198,8 +197,8 @@ def get_glassdoor_reviews(company_payload):
                 reviews_payload[key].append(item)
 
             # to ensure same rows for pandas to convert to df
-            #while len(reviews_payload["ratingNumber"]) != len(reviews_payload["pros"]):
-             #   reviews_payload["ratingNumber"].append("nil")
+            # while len(reviews_payload["ratingNumber"]) != len(reviews_payload["pros"]):
+            #   reviews_payload["ratingNumber"].append("nil")
 
     return reviews_payload
 
@@ -209,7 +208,7 @@ def get_glassdoor_reviews_payload(response):
     return {
         "pros": selector.css('[data-test="pros"]::text').getall(),
         "cons": selector.css('[data-test="cons"]::text').getall(),
-        "ratingNumber": selector.css('[class="ratingNumber mr-xsm"]::text').getall()
+        "rating_number": selector.css('[class="ratingNumber mr-xsm"]::text').getall()
     }
 
 
