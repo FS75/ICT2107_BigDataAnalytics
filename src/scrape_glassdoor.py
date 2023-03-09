@@ -9,7 +9,7 @@ from typing import Tuple, List, Dict
 from parsel import Selector
 import pandas as pd
 
-from src.main import reviews_to_scrape
+from src.main import reviews_to_scrape, details_folder_prefix, review_folder_prefix
 
 country_code = {
     "Argentina": 13,
@@ -37,8 +37,8 @@ country_code = {
     "Österreich": 11
 }
 
-companies_to_scrape = ["meta"]
-# companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
+# companies_to_scrape = ["meta"]
+companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -55,7 +55,7 @@ pandas_glassdoor_details_dict = {
 pandas_glassdoor_reviews_dict = {
     "pros": [],
     "cons": [],
-    "ratingNumber": [],
+    "rating_number": [],
 }
 
 
@@ -176,7 +176,7 @@ def get_glassdoor_reviews(company_payload):
 
     print(f"Total pages available to scrape for {company_payload['suggestion']}'s reviews: {total_pages}")
 
-    pages_to_scrape = reviews_to_scrape / 10
+    pages_to_scrape = int(reviews_to_scrape / 10)
 
     if total_pages < pages_to_scrape:
         actual_pages_to_scrape = total_pages
@@ -199,7 +199,6 @@ def get_glassdoor_reviews(company_payload):
             # to ensure same rows for pandas to convert to df
             # while len(reviews_payload["ratingNumber"]) != len(reviews_payload["pros"]):
             #   reviews_payload["ratingNumber"].append("nil")
-
     return reviews_payload
 
 
