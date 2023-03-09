@@ -1,0 +1,5 @@
+meta
+amazon
+apple
+netflix
+google
