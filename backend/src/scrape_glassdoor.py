@@ -9,7 +9,7 @@ from typing import Tuple, List, Dict
 from parsel import Selector
 import pandas as pd
 
-from src.main import reviews_to_scrape, details_folder_prefix, review_folder_prefix
+from main import reviews_to_scrape, details_folder_prefix, review_folder_prefix
 
 country_code = {
     "Argentina": 13,
@@ -71,13 +71,13 @@ async def scrape_glassdoor():
         details_payload_to_pandas_dict(glassdoor_details_payload, pandas_glassdoor_details_dict)
         pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
 
-        glassdoor_reviews_payload = get_glassdoor_reviews(glassdoor_company_payload)
-
-        for key in pandas_glassdoor_reviews_dict:
-            pandas_glassdoor_reviews_dict[key].clear()
-
-        review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
-        pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review.csv")
+        # glassdoor_reviews_payload = get_glassdoor_reviews(glassdoor_company_payload)
+        #
+        # for key in pandas_glassdoor_reviews_dict:
+        #     pandas_glassdoor_reviews_dict[key].clear()
+        #
+        # review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
+        # pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review.csv")
 
 
 """

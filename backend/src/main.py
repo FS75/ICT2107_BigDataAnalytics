@@ -1,14 +1,15 @@
 import asyncio
 
-# from scrape_glassdoor import *
+from scrape_glassdoor import *
 # from scrape_indeed import *
 from scrape_indeedv2 import *
 
 
-details_folder_prefix = "../dataset/details_dataset"
-review_folder_prefix = "../dataset/reviews_dataset"
+details_folder_prefix = "../../dataset/details_dataset"
+review_folder_prefix = "../../dataset/reviews_dataset"
 
 reviews_to_scrape = 500
+
 
 def main():
     with open('companies_to_scrape.txt', 'r') as companies:

@@ -5,7 +5,7 @@ import time
 import re
 
 #Directory for scrape reviews
-scrapeDataPath = "../dataset/reviews_dataset/"
+scrapeDataPath = "../../dataset/reviews_dataset/"
 
 #Set up header to write into
 header = ['Rating', 'Title', 'Author', 'Review Description', 'Pro', 'Con']
