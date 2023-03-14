@@ -6,100 +6,101 @@ import Donut from "./ReviewDonut";
 
 // yes we must format the sentiment in this way due to
 // how donut chart takes in data
-const companyData = [
-    {
-        name: "Meta",
-        desc: "Hi I am Meta",
-        overallSentiment: [
-            {
-                type: "positive",
-                sentiment: 480
-            },
-            {
-                type: "negative",
-                sentiment: 80
-            },
-            {
-                type: "neutral",
-                sentiment: 130
-            }
-        ]
-    },
-    {
-        name: "Amazon",
-        desc: "Hi I am Amazon",
-        overallSentiment: [
-            {
-                type: "positive",
-                sentiment: 231
-            },
-            {
-                type: "negative",
-                sentiment: 64
-            },
-            {
-                type: "neutral",
-                sentiment: 38
-            }
-        ]
-    },
-    {
-        name: "Apple",
-        desc: "Hi I am Apple",
-        overallSentiment: [
-            {
-                type: "positive",
-                sentiment: 657
-            },
-            {
-                type: "negative",
-                sentiment: 167
-            },
-            {
-                type: "neutral",
-                sentiment: 31
-            }
-        ]
-    },
-    {
-        name: "Netflix",
-        desc: "Hi I am Netflix",
-        overallSentiment: [
-            {
-                type: "positive",
-                sentiment: 161
-            },
-            {
-                type: "negative",
-                sentiment: 321
-            },
-            {
-                type: "neutral",
-                sentiment: 277
-            }
-        ]
-    },
-    {
-        name: "Google",
-        desc: "Hi I am Google",
-        overallSentiment: [
-            {
-                type: "positive",
-                sentiment: 385
-            },
-            {
-                type: "negative",
-                sentiment: 351
-            },
-            {
-                type: "neutral",
-                sentiment: 281
-            }
-        ]
-    }
-  ];
 
 export default function PageShell() {
+    const [companyData, updateCompanyData] = useState([
+        {
+            name: "Meta",
+            desc: "Hi I am Meta",
+            overallSentiment: [
+                {
+                    type: "positive",
+                    sentiment: 480
+                },
+                {
+                    type: "negative",
+                    sentiment: 80
+                },
+                {
+                    type: "neutral",
+                    sentiment: 130
+                }
+            ]
+        },
+        {
+            name: "Amazon",
+            desc: "Hi I am Amazon",
+            overallSentiment: [
+                {
+                    type: "positive",
+                    sentiment: 231
+                },
+                {
+                    type: "negative",
+                    sentiment: 64
+                },
+                {
+                    type: "neutral",
+                    sentiment: 38
+                }
+            ]
+        },
+        {
+            name: "Apple",
+            desc: "Hi I am Apple",
+            overallSentiment: [
+                {
+                    type: "positive",
+                    sentiment: 657
+                },
+                {
+                    type: "negative",
+                    sentiment: 167
+                },
+                {
+                    type: "neutral",
+                    sentiment: 31
+                }
+            ]
+        },
+        {
+            name: "Netflix",
+            desc: "Hi I am Netflix",
+            overallSentiment: [
+                {
+                    type: "positive",
+                    sentiment: 161
+                },
+                {
+                    type: "negative",
+                    sentiment: 321
+                },
+                {
+                    type: "neutral",
+                    sentiment: 277
+                }
+            ]
+        },
+        {
+            name: "Google",
+            desc: "Hi I am Google",
+            overallSentiment: [
+                {
+                    type: "positive",
+                    sentiment: 385
+                },
+                {
+                    type: "negative",
+                    sentiment: 351
+                },
+                {
+                    type: "neutral",
+                    sentiment: 281
+                }
+            ]
+        }
+    ]);
+        
   const [selectedView, setSelectedView] = useState("1");
   return (
     <main>
