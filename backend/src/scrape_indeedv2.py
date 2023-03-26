@@ -8,7 +8,7 @@ import re
 scrapeDataPath = "../../dataset/reviews_dataset/"
 
 #Set up header to write into
-header = ['Rating', 'Title', 'Author', 'Review Description', 'Pro', 'Con']
+header = ['Rating', 'Title', 'Review Description', 'Pro', 'Con', 'Job Title',"Status", 'Region', 'Date']
 
 # Set the path to the web driver executable for chrome v110
 driver_path = '/chromedriver.exe'
@@ -52,30 +52,42 @@ def scrape_indeedv2(companies, max_reviews_to_scrape):
 
             while review_counter < reviews_to_scrape:
                 # Navigate to the website
-                url = 'https://sg.indeed.com/cmp/'+company+'/reviews?fcountry=ALL&start='+str(review_counter)
+                url = 'https://sg.indeed.com/cmp/'+company+'/reviews?fcountry=ALL&start='+str(review_counter)+'&lang=en'
                 driver.get(url)
-            
-                reviews_list = driver.find_element(By.CLASS_NAME,'cmp-ReviewsList')
-                reviews = reviews_list.find_elements(By.CLASS_NAME,'css-r0sr81')
-                for review in reviews:
-                    rating = review.find_element(By.CSS_SELECTOR,"[itemprop='reviewRating']").text
-                    title = review.find_element(By.CSS_SELECTOR,"[data-testid='title'").text
-                    author = review.find_element(By.CSS_SELECTOR,"[itemprop='author']").text
-                    review_description = review.find_element(By.CSS_SELECTOR,"[data-tn-component='reviewDescription']").text
-                    pro_con = review.find_elements(By.CLASS_NAME,"css-1z0411s")
-                    pro = ""
-                    con = ""
+                try:
+                    reviews_list = driver.find_element(By.CLASS_NAME,'cmp-ReviewsList')
+                    reviews = reviews_list.find_elements(By.CLASS_NAME,'css-r0sr81')
+                    for review in reviews:
+                        rating = review.find_element(By.CSS_SELECTOR,"[itemprop='reviewRating']").text
+                        title = review.find_element(By.CSS_SELECTOR,"[data-testid='title'").text
+                        review_description = review.find_element(By.CSS_SELECTOR,"[data-tn-component='reviewDescription']").text
+                        pro_con = review.find_elements(By.CLASS_NAME,"css-1z0411s")
+                        job_title_region_date = review.find_element(By.CSS_SELECTOR,"[itemprop='author']").text
+                        job_title, employment_status, region, date = split_string(job_title_region_date)
 
-                    #Check if have pros/cons reviews
-                    if(len(pro_con)>1):
-                        pro = pro_con[0].text
-                        con = pro_con[1].text
+                        # parts = job_title_region_date.split(" - ")
+                        # job_title = parts[0]
+                        # region = parts[1]
+                        # date = parts[2]
 
-                    info = [rating, title, author, review_description, pro, con]
+                        # title_parts = job_title.split(" (")
+                        # job_title = title_parts[0]
+                        # employment_status = title_parts[1].replace(")", "")
+                        pro = ""
+                        con = ""
 
-                    # The writer will then write this info the the CSV
-                    fileWriter.writerow(info)
-                
+                        #Check if have pros/cons reviews
+                        if(len(pro_con)>1):
+                            pro = pro_con[0].text
+                            con = pro_con[1].text
+
+                        info = [rating, title, review_description, pro, con, job_title, employment_status, region, date]
+
+                        # The writer will then write this info the the CSV
+                        fileWriter.writerow(info)
+                except Exception as e:
+                    print("-"*20 + "ERROR: "+str(e))
+
                 review_counter+=20
                 print("----------------------------------------------------")
                 print(str(review_counter)+" reviews has been scrape for " + company)
@@ -84,15 +96,23 @@ def scrape_indeedv2(companies, max_reviews_to_scrape):
 
             #Close files
             file.close()
-            print("###### ["+company+"] done scraping#####")
+            print("###### ["+company+"] done scraping #####\n\n")
         
         #Quit driver
         driver.quit()
         print("\nFinish scrapping all companies")
         
     except Exception as e:
-        print("ERROR: "+str(e))
+        print("-"*20 + "ERROR: "+str(e))
 
+# Split job details
+def split_string(s):
+    pattern = r'^(.+)\s\((.+)\)\s-\s(.+)\s-\s(.+)$'
+    match = re.match(pattern, s)
+    if match:
+        return match.group(1), match.group(2), match.group(3), match.group(4)
+    else:
+        return None
 
 # Create a new instance of the web driver
 def set_up_driver():
