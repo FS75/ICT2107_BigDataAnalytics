@@ -1,7 +1,6 @@
 import asyncio
 import time
 
-
 import httpx
 import json
 import re
@@ -38,7 +37,11 @@ country_code = {
 }
 
 # companies_to_scrape = ["meta"]
-companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
+# companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
+#
+companies_to_scrape = ["HSBC", "United Overseas Bank", "Micron Technology, Inc", "Meta", "Amazon", "Apple",
+                        "Dbs Bank", "Accenture", "Netflix", "Google", "Infineon Technologies", "St Engineering",
+                       "Sembcorp", "Ntuc Fairprice"]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -53,15 +56,22 @@ pandas_glassdoor_details_dict = {
 }
 
 pandas_glassdoor_reviews_dict = {
-    "pros": [],
-    "cons": [],
-    "rating_number": [],
+    "Rating": [],
+    "Title": [],
+    "Pro": [],
+    "Con": [],
+    "Job Title": [],
+    "Status": [],
+    "Region": [],
+    "Date": [],
 }
 
 
 # define async for review scrape
 async def scrape_glassdoor():
     for company in companies_to_scrape:
+        print(f"Sleeping for 10 seconds before scraping {company}...")
+        # time.sleep(10)
         print(f"Scraping {company}'s details from Glassdoor...")
         glassdoor_company_payload = glassdoor_find_companies(company)
         glassdoor_response = get_response(f"https://www.glassdoor.com/Overview/Working-at-"
@@ -99,12 +109,13 @@ PARAMS: url : string - contains URL to a website
 
 
 def get_response(url):
-    timeout = httpx.Timeout(15.0, read=60.0)
+    timeout = httpx.Timeout(30.0, read=120.0)
     client = httpx.Client(timeout=timeout)
     return client.get(
         url,
         cookies=generate_country_cookie("Singapore"),
         follow_redirects=True,
+        headers={'User-Agent': 'Mozilla/5.0'}
     )
 
 
@@ -133,7 +144,9 @@ def glassdoor_find_companies(query: str):
     """find company Glassdoor ID and name by query. e.g. "ebay" will return "eBay" with ID 7853"""
     result = httpx.get(
         url=f"https://www.glassdoor.com/searchsuggest/typeahead?numSuggestions=8&source=GD_V2&version=NEW&rf=full&fallback=token&input={query}",
+        headers={'User-Agent': 'Mozilla/5.0'}
     )
+    # print(result.content)
     data = json.loads(result.content)
     return {
         "suggestion": data[0]["suggestion"],
@@ -166,9 +179,14 @@ def get_glassdoor_reviews(company_payload):
     )
 
     reviews_payload = {
-        "pros": [],
-        "cons": [],
-        "rating_number": []
+        "Rating": [],
+        "Title": [],
+        "Pro": [],
+        "Con": [],
+        "Job Title": [],
+        "Status": [],
+        "Region": [],
+        "Date": [],
     }
 
     reviews = parse_reviews(first_page.text)
@@ -197,17 +215,45 @@ def get_glassdoor_reviews(company_payload):
                 reviews_payload[key].append(item)
 
             # to ensure same rows for pandas to convert to df
-            # while len(reviews_payload["ratingNumber"]) != len(reviews_payload["pros"]):
-            #   reviews_payload["ratingNumber"].append("nil")
+            while len(reviews_payload[key]) <= 10:
+                # print(reviews_payload[key])
+                reviews_payload[key].append("")
+
     return reviews_payload
 
 
 def get_glassdoor_reviews_payload(response):
     selector = Selector(response.text)
+    job_details = selector.css('[class="common__EiReviewDetailsStyle__newUiJobLine"]').getall()
+
+    job_title_holder = []
+    region_holder = []
+    date_holder = []
+
+    # print(job_details)
+    for job in job_details:
+        date, role, region = extract_job_details(job)
+        job_title_holder.append(role)
+        region_holder.append(region)
+        date_holder.append(date)
+
+    statuses = selector.css('[class="pt-xsm pt-md-0 css-1qxtz39 eg4psks0"]::text').getall()
+
+    status_holder = []
+
+    for status in statuses:
+        status = extract_status(status)
+        status_holder.append(status)
+
     return {
-        "pros": selector.css('[data-test="pros"]::text').getall(),
-        "cons": selector.css('[data-test="cons"]::text').getall(),
-        "rating_number": selector.css('[class="ratingNumber mr-xsm"]::text').getall()
+        "Rating": selector.css('[class="ratingNumber mr-xsm"]::text').getall(),
+        "Title": selector.css('[class="reviewLink"]::text').getall(),
+        "Pro": selector.css('[data-test="pros"]::text').getall(),
+        "Con": selector.css('[data-test="cons"]::text').getall(),
+        "Job Title": job_title_holder,
+        "Status": status_holder,
+        "Region": region_holder,
+        "Date": date_holder
     }
 
 
@@ -224,3 +270,27 @@ def parse_reviews(html) -> Tuple[List[Dict], int]:
     xhr_cache = cache["ROOT_QUERY"]
     reviews = next(v for k, v in xhr_cache.items() if k.startswith("employerReviews") and v.get("reviews"))
     return reviews
+
+
+def extract_job_details(string):
+    # Extract date
+    date = string[:string.find(" - ")]
+    date = date[date.rfind(">") + 1:]
+
+    # print(string)
+
+    role = string[string.find(" - ") + 3:]
+    role = role[:role.find("<")]
+
+    if string.find("in<!") != -1:
+        region = string[string.find("in<!") + 17:]
+        region = region[:region.find("<")]
+    else:
+        region = ""
+
+    return date, role, region
+
+
+def extract_status(string):
+    if string.find(",") != 1:
+        return string[:string.find(",")]
