@@ -9,7 +9,7 @@ from scrape_indeedv2 import *
 details_folder_prefix = "../../dataset/details_dataset"
 review_folder_prefix = "../../dataset/reviews_dataset"
 
-reviews_to_scrape = 2000
+reviews_to_scrape = 100000
 
 
 def main():
