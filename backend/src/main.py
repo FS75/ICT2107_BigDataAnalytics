@@ -1,6 +1,6 @@
 import asyncio
 
-from scrape_glassdoor import *
+#from scrape_glassdoor import *
 #from scrape_glassdoorv2 import *
 # from scrape_indeed import *
 from scrape_indeedv2 import *
