@@ -1,4 +1,5 @@
 import asyncio
+import random
 import time
 
 import httpx
@@ -9,6 +10,16 @@ from parsel import Selector
 import pandas as pd
 
 from main import reviews_to_scrape, details_folder_prefix, review_folder_prefix
+
+user_agent_list = [
+    # "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
+    # "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+    # "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    ]
 
 country_code = {
     "Argentina": 13,
@@ -36,12 +47,17 @@ country_code = {
     "Österreich": 11
 }
 
-# companies_to_scrape = ["meta"]
-# companies_to_scrape = ["meta", "amazon", "apple", "netflix", "google"]
-#
-companies_to_scrape = ["HSBC", "United Overseas Bank", "Micron Technology, Inc", "Meta", "Amazon", "Apple",
-                        "Dbs Bank", "Accenture", "Netflix", "Google", "Infineon Technologies", "St Engineering",
-                       "Sembcorp", "Ntuc Fairprice"]
+# "HSBC", "United Overseas Bank", "Micron Technology, Inc",
+# "Meta", "Amazon", "Apple",
+# "Dbs Bank", "Accenture", "Netflix",
+# "Google", "Infineon Technologies", "St Engineering",
+# "Sembcorp", "Ntuc Fairprice"
+
+# "HSBC", "Micron Technology, Inc",
+# "Amazon", "Apple",
+# "Dbs Bank", "Accenture", "Netflix",
+# "Google", "Infineon Technologies", "St Engineering",
+companies_to_scrape = ["HSBC", "Micron Technology, Inc", "Google", "Infineon Technologies", "St Engineering"]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -70,35 +86,24 @@ pandas_glassdoor_reviews_dict = {
 # define async for review scrape
 async def scrape_glassdoor():
     for company in companies_to_scrape:
-        print(f"Sleeping for 10 seconds before scraping {company}...")
-        # time.sleep(10)
+        print(f"Sleeping for 1 seconds before scraping {company}...")
+        await asyncio.sleep(1)
         print(f"Scraping {company}'s details from Glassdoor...")
         glassdoor_company_payload = glassdoor_find_companies(company)
-        glassdoor_response = get_response(f"https://www.glassdoor.com/Overview/Working-at-"
-                                          f"{glassdoor_company_payload['suggestion']}-EI_IE"
-                                          f"{glassdoor_company_payload['id']}.htm")
-        glassdoor_details_payload = get_glassdoor_details_payload(glassdoor_company_payload, glassdoor_response)
-        details_payload_to_pandas_dict(glassdoor_details_payload, pandas_glassdoor_details_dict)
-        pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
+        # glassdoor_response = await get_response(f"https://www.glassdoor.com/Overview/Working-at-"
+        #                                   f"{glassdoor_company_payload['suggestion']}-EI_IE"
+        #                                   f"{glassdoor_company_payload['id']}.htm")
+        # glassdoor_details_payload = get_glassdoor_details_payload(glassdoor_company_payload, glassdoor_response)
+        # details_payload_to_pandas_dict(glassdoor_details_payload, pandas_glassdoor_details_dict)
+        # pandas_dict_to_csv(pandas_glassdoor_details_dict, f"{details_folder_prefix}/glassdoor_details.csv")
 
-        # glassdoor_reviews_payload = get_glassdoor_reviews(glassdoor_company_payload)
-        #
-        # for key in pandas_glassdoor_reviews_dict:
-        #     pandas_glassdoor_reviews_dict[key].clear()
-        #
-        # review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
-        # pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review.csv")
+        glassdoor_reviews_payload = await get_glassdoor_reviews(glassdoor_company_payload)
 
+        for key in pandas_glassdoor_reviews_dict:
+            pandas_glassdoor_reviews_dict[key].clear()
 
-"""
-Purpose: Function to generate a cookie to specify country for response
-PARAMS: country : string - contains the country you want crawled (look at dictionary at top of file)
-        eg. "Singapore"
-"""
-
-
-def generate_country_cookie(country):
-    return {"tldp": f"{country_code[country]}"}
+        review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
+        pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review.csv")
 
 
 """
@@ -108,15 +113,16 @@ PARAMS: url : string - contains URL to a website
 """
 
 
-def get_response(url):
+async def get_response(url):
     timeout = httpx.Timeout(30.0, read=120.0)
-    client = httpx.Client(timeout=timeout)
-    return client.get(
+    client = httpx.AsyncClient(timeout=timeout)
+    res = await client.get(
         url,
-        cookies=generate_country_cookie("Singapore"),
+        cookies={'tldp': f'{random.randint(1, 10000)}'},
         follow_redirects=True,
-        headers={'User-Agent': 'Mozilla/5.0'}
+        headers={'User-Agent': random.choice(user_agent_list)}
     )
+    return res
 
 
 """
@@ -144,7 +150,7 @@ def glassdoor_find_companies(query: str):
     """find company Glassdoor ID and name by query. e.g. "ebay" will return "eBay" with ID 7853"""
     result = httpx.get(
         url=f"https://www.glassdoor.com/searchsuggest/typeahead?numSuggestions=8&source=GD_V2&version=NEW&rf=full&fallback=token&input={query}",
-        headers={'User-Agent': 'Mozilla/5.0'}
+        headers={'User-Agent': random.choice(user_agent_list)}
     )
     # print(result.content)
     data = json.loads(result.content)
@@ -171,12 +177,14 @@ def pandas_dict_to_csv(pandas_dict, filename):
     df.to_csv(filename)
 
 
-def get_glassdoor_reviews(company_payload):
-    first_page = get_response(
+async def get_glassdoor_reviews(company_payload):
+    first_page = await get_response(
         url=f"https://www.glassdoor.com/Reviews/"
             f"{company_payload['suggestion']}-Reviews-E"
-            f"{company_payload['id']}_P1.htm",
+            f"{company_payload['id']}_P1.htm"
     )
+
+    await asyncio.sleep(1)
 
     reviews_payload = {
         "Rating": [],
@@ -205,10 +213,11 @@ def get_glassdoor_reviews(company_payload):
 
     for page in range(1, actual_pages_to_scrape + 1):
         print(f"Scraping {company_payload['suggestion']}'s reviews from page {page}")
-        response = get_response(f"https://www.glassdoor.com/Reviews/"
+        response = await get_response(f"https://www.glassdoor.com/Reviews/"
                                 f"{company_payload['suggestion']}-Reviews-E"
                                 f"{company_payload['id']}_P"
                                 f"{page}.htm")
+        await asyncio.sleep(1)
         glassdoor_reviews_payload = get_glassdoor_reviews_payload(response)
         for key in glassdoor_reviews_payload:
             for item in glassdoor_reviews_payload[key]:
@@ -216,7 +225,7 @@ def get_glassdoor_reviews(company_payload):
 
             # to ensure same rows for pandas to convert to df
             while len(reviews_payload[key]) <= 10:
-                # print(reviews_payload[key])
+            #     # print(reviews_payload[key])
                 reviews_payload[key].append("")
 
     return reviews_payload
