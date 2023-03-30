@@ -30,18 +30,67 @@ public class GlassDoorSentiment {
 		job.setInputFormatClass(TextInputFormat.class);
 
 		// Set the input paths and mapper classes using MultipleInputs
+		//GlassDoor Mappers
+		
         MultipleInputs.addInputPath(job,
-                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Amazon_glassdoor_review_cleaned.csv"),
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Amazon_glassdoor_review_clean.csv"),
                 TextInputFormat.class, GlassDoorAmazonMapper.class);
         MultipleInputs.addInputPath(job,
-                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Ntuc_Fairprice_glassdoor_review_cleaned.csv"),
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Ntuc_Fairprice_glassdoor_review_clean.csv"),
                 TextInputFormat.class, GlassDoorNtucMapper.class);
         MultipleInputs.addInputPath(job,
-                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Sembcorp_glassdoor_review_cleaned.csv"),
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Sembcorp_glassdoor_review_clean.csv"),
                 TextInputFormat.class, GlassDoorSembcorpMapper.class);
         MultipleInputs.addInputPath(job,
-                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/amazon_indeed_review_cleaned.csv"),
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/meta_glassdoor_review_clean.csv"),
+                TextInputFormat.class, GlassDoorMetaMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/United_Overseas_Bank_glassdoor_review_clean.csv"),
+                TextInputFormat.class, GlassDoorUOBMapper.class);
+        
+        //Indeed Mappers
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Amazon_indeed_review_clean.csv"),
                 TextInputFormat.class, IndeedAmazonMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Accenture_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedAccentureMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/apple_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedAppleMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Dbs-Bank_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedDBSMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/google_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedGoogleMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/HSBC_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedHSBCMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Infineon-Technologies_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedInfineonMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Meta-dd1502f2_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedMetaMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Micron-Technology-Inc_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedMicronMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Netflix_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedNetflixMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Ntuc-Fairprice_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedNtucMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/Sembcorp_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedSembcorpMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/St-Engineering_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedSTEngineeringMapper.class);
+        MultipleInputs.addInputPath(job,
+                new Path("hdfs://hadoop-master:9000/user/ict2101702/glassDoor/input/United-Overseas-Bank_indeed_review_clean.csv"),
+                TextInputFormat.class, IndeedUOBMapper.class);
 		
 		
 		// Set the output path
