@@ -178,8 +178,8 @@ def pandas_dict_to_csv(pandas_dict, filename):
     for key in pandas_dict:
         key_lengths.append(len(pandas_dict[key]))
 
-    for i in range(0, len(key_lengths)):
-        while key_lengths[i] != max(key_lengths):
+    for i in range(0, 8):
+        while pandas_dict[keys[i]] <= max(key_lengths):
             pandas_dict[keys[i]].append("")
 
     df = pd.DataFrame(pandas_dict)
