@@ -56,8 +56,8 @@ country_code = {
 # "HSBC", "Micron Technology, Inc",
 # "Amazon", "Apple",
 # "Dbs Bank", "Accenture", "Netflix",
-# "Google", "Infineon Technologies", "St Engineering",
-companies_to_scrape = ["HSBC", "Micron Technology, Inc", "Google", "Infineon Technologies", "St Engineering"]
+# "Google", "Infineon Technologies",
+companies_to_scrape = ["HSBC"]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -173,6 +173,15 @@ def review_payload_to_pandas_dict(payload, pandas_dict):
 
 
 def pandas_dict_to_csv(pandas_dict, filename):
+    key_lengths = []
+    keys = ["Rating", "Title", "Pro", "Con", "Job Title", "Status", "Region", "Date"]
+    for key in pandas_dict:
+        key_lengths.append(len(pandas_dict[key]))
+
+    for i in range(0, len(key_lengths)):
+        while key_lengths[i] != max(key_lengths):
+            pandas_dict[keys[i]].append("")
+
     df = pd.DataFrame(pandas_dict)
     df.to_csv(filename)
 
@@ -224,9 +233,9 @@ async def get_glassdoor_reviews(company_payload):
                 reviews_payload[key].append(item)
 
             # to ensure same rows for pandas to convert to df
-            while len(reviews_payload[key]) <= 10:
-            #     # print(reviews_payload[key])
-                reviews_payload[key].append("")
+            # while len(reviews_payload[key]) <= 10:
+            # #     # print(reviews_payload[key])
+            #     reviews_payload[key].append("")
 
     return reviews_payload
 
