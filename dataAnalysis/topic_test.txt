@@ -1,0 +1,5 @@
+(0, '0.019*"work" + 0.013*"company" + 0.009*"people" + 0.008*"amazon" + 0.007*"great" + 0.007*"good" + 0.006*"management" + 0.006*"get" + 0.006*"managers" + 0.005*"time"')
+(1, '0.041*"work" + 0.016*"great" + 0.015*"team" + 0.010*"good" + 0.009*"get" + 0.009*"people" + 0.008*"balance" + 0.007*"pay" + 0.007*"environment" + 0.007*"amazon"')
+(2, '0.014*"amazon" + 0.011*"people" + 0.011*"company" + 0.008*"work" + 0.008*"get" + 0.008*"employees" + 0.007*"good" + 0.007*"lot" + 0.007*"culture" + 0.007*"leadership"')
+(3, '0.018*"work" + 0.012*"amazon" + 0.010*"great" + 0.009*"company" + 0.008*"working" + 0.008*"good" + 0.007*"people" + 0.007*"benefits" + 0.006*"time" + 0.006*"many"')
+(4, '0.032*"work" + 0.026*"pay" + 0.024*"good" + 0.021*"hours" + 0.017*"benefits" + 0.016*"time" + 0.011*"get" + 0.011*"great" + 0.010*"job" + 0.010*"long"')
