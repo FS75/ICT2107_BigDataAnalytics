@@ -15,19 +15,20 @@ user_agent_list = [
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
-        # "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36",
-        # "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
-        # "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
-        # "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
     ]
 
-# "HSBC", "United Overseas Bank", "Micron Technology, Inc",
-# "Meta", "Amazon", "Apple",
-# "Dbs Bank", "Accenture", "Netflix",
-# "Google", "Infineon Technologies", "St Engineering",
-# "Sembcorp", "Ntuc Fairprice"
 
-companies_to_scrape = ["Amazon"]
+companies_to_scrape = [
+    "HSBC", "United Overseas Bank", "Micron Technology, Inc",
+    "Meta", "Amazon", "Apple",
+    "Dbs Bank", "Accenture", "Netflix",
+    "Google", "Infineon Technologies", "St Engineering",
+    "Sembcorp", "Ntuc Fairprice"
+]
 
 pandas_glassdoor_details_dict = {
     "employer_name": [],
@@ -73,7 +74,7 @@ async def scrape_glassdoor():
             pandas_glassdoor_reviews_dict[key].clear()
 
         review_payload_to_pandas_dict(glassdoor_reviews_payload, pandas_glassdoor_reviews_dict)
-        pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review.csv")
+        pandas_dict_to_csv(pandas_glassdoor_reviews_dict, f"{review_folder_prefix}/{company}_glassdoor_review7.csv")
 
 
 async def get_glassdoor_reviews(company_payload):
@@ -110,7 +111,7 @@ async def get_glassdoor_reviews(company_payload):
 
     print(f"Commencing scraping of {actual_pages_to_scrape} pages for {company_payload['suggestion']}'s reviews")
 
-    for page in range(1, 251):
+    for page in range(1, actual_pages_to_scrape + 1):
         print(f"Scraping {company_payload['suggestion']}'s reviews from page {page}")
         response = await get_response(f"https://www.glassdoor.com/Reviews/"
                                 f"{company_payload['suggestion']}-Reviews-E"

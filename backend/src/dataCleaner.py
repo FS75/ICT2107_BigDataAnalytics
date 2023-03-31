@@ -13,7 +13,7 @@ for filename in os.listdir(folder_input):
     if os.path.isfile(filepath):
         print(filepath)
 
-        df = pd.read_csv(filepath)
+        df = pd.read_csv(filepath) # add encoding='ISO-8859-1' in function for those that cant work
 
         for index, row in df.iterrows():
             for column in df.columns:
