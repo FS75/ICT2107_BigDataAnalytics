@@ -2,11 +2,8 @@ import pandas as pd
 import string
 import os
 
-folder_input = "../../dataset/reviews_dataset/"
-folder_output = "../../dataset/clean_dataset_v2/"
-
-# folder_input = "../../dataset/test/"
-# folder_output = "../../dataset/test/"
+folder_input = "../../Dataset_used/ReviewsDataset/"
+folder_output = "../../Dataset_used/CleanDataset/"
 
 for filename in os.listdir(folder_input):
     filepath = os.path.join(folder_input, filename)
