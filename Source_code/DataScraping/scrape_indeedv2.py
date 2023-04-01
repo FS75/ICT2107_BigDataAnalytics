@@ -5,7 +5,7 @@ import time
 import re
 
 #Directory for scrape reviews
-scrapeDataPath = "../../dataset/reviews_dataset/"
+scrapeDataPath = "../../Dataset_used/ReviewsDataset/"
 
 #Set up header to write into
 header = ['Rating', 'Title', 'Review Description', 'Pro', 'Con', 'Job Title',"Status", 'Region', 'Date']
@@ -65,14 +65,6 @@ def scrape_indeedv2(companies, max_reviews_to_scrape):
                         job_title_region_date = review.find_element(By.CSS_SELECTOR,"[itemprop='author']").text
                         job_title, employment_status, region, date = split_string(job_title_region_date)
 
-                        # parts = job_title_region_date.split(" - ")
-                        # job_title = parts[0]
-                        # region = parts[1]
-                        # date = parts[2]
-
-                        # title_parts = job_title.split(" (")
-                        # job_title = title_parts[0]
-                        # employment_status = title_parts[1].replace(")", "")
                         pro = ""
                         con = ""
 
