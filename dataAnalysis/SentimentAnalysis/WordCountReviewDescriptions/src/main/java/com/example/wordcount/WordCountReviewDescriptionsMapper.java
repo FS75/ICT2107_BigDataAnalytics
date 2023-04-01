@@ -57,7 +57,7 @@ public class WordCountReviewDescriptionsMapper extends Mapper<LongWritable, Text
 	 @Override
 	    public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 			String line = value.toString();
-			if (key.get() == 0 && line.startsWith("Unnamed: 0")) {
+			if (key.get() == 0) {
 				// skip header row
 				return;
 			}
@@ -85,6 +85,7 @@ public class WordCountReviewDescriptionsMapper extends Mapper<LongWritable, Text
 		}
 		
 		private String removeStopwords(String input) {
+			input = input.toLowerCase();
 	        // Split the input string into words
 	        String[] words = input.split("\\s+");
 
@@ -96,7 +97,7 @@ public class WordCountReviewDescriptionsMapper extends Mapper<LongWritable, Text
 
 	        // Loop through the words and add the non-stop words to the output string
 	        for (String word : words) {
-	            if (!Arrays.asList(stopwordsArray).contains(word)) {
+	            if (!Arrays.asList(stopwordsArray).contains(word) && !word.matches(".*\\d.*")) {
 	                outputString += word + " ";
 	            }
 	        }

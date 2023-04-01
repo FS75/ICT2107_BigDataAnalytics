@@ -57,7 +57,7 @@ public class WordCountProsMapper extends Mapper<LongWritable, Text, Text, LongWr
 	 @Override
 	    public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
 			String line = value.toString();
-			if (key.get() == 0 && line.startsWith("Unnamed: 0")) {
+			if (key.get() == 0) {
 				// skip header row
 				return;
 			}
@@ -67,11 +67,9 @@ public class WordCountProsMapper extends Mapper<LongWritable, Text, Text, LongWr
 
 			// get the text fields
 			String proFieldText = fields[3];
-//			String conFieldText = fields[4];
 
 			// split the text fields into words and count each word
 			countWords(proFieldText, context);
-//			countWords(conFieldText, context);
 		}
 
 		private void countWords(String text, Context context) throws IOException, InterruptedException {
@@ -87,6 +85,7 @@ public class WordCountProsMapper extends Mapper<LongWritable, Text, Text, LongWr
 		}
 		
 		private String removeStopwords(String input) {
+			input = input.toLowerCase();
 	        // Split the input string into words
 	        String[] words = input.split("\\s+");
 
@@ -98,7 +97,7 @@ public class WordCountProsMapper extends Mapper<LongWritable, Text, Text, LongWr
 
 	        // Loop through the words and add the non-stop words to the output string
 	        for (String word : words) {
-	            if (!Arrays.asList(stopwordsArray).contains(word)) {
+	            if (!Arrays.asList(stopwordsArray).contains(word) && !word.matches(".*\\d.*")) {
 	                outputString += word + " ";
 	            }
 	        }
