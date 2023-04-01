@@ -1,9 +1,10 @@
-package com.example.glassdoorsentiment;
+package sentimentanalysis;
 
-import java.io.DataOutput;
-import java.io.DataInput;
-import java.io.IOException;
 import org.apache.hadoop.io.Writable;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
 
 public class CompanySentimentWritable implements Writable {
     private String companyName;
@@ -38,6 +39,6 @@ public class CompanySentimentWritable implements Writable {
 
     @Override
     public String toString() {
-        return companyName + ": " + sentimentScore;
+        return companyName + sentimentScore;
     }
 }

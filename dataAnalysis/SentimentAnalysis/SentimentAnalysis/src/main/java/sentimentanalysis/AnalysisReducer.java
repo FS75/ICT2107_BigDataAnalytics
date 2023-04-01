@@ -1,4 +1,4 @@
-package com.example.glassdoorsentiment;
+package sentimentanalysis;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.Text;
@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class GlassDoorReducer extends Reducer<Text, DoubleWritable, Text, CompanySentimentWritable> {
+public class AnalysisReducer extends Reducer<Text, DoubleWritable, Text, CompanySentimentWritable> {
 
     @Override
     protected void reduce(Text key, Iterable<DoubleWritable> values, Context context) throws IOException, InterruptedException {
@@ -25,7 +25,3 @@ public class GlassDoorReducer extends Reducer<Text, DoubleWritable, Text, Compan
         context.write(null, outputValue);
     }
 }
-
-
-
-
